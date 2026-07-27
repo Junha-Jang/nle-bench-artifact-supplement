@@ -1,0 +1,2636 @@
+[
+ {
+  "scenario_id": "NLEB-AM-CX-005",
+  "rater": "A-3",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-006",
+  "rater": "A-3",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-007",
+  "rater": "A-3",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-010",
+  "rater": "A-3",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-011",
+  "rater": "A-3",
+  "selected_categories": [
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-013",
+  "rater": "A-3",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-014",
+  "rater": "A-3",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-015",
+  "rater": "A-3",
+  "selected_categories": [
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-016",
+  "rater": "A-3",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "style"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-018",
+  "rater": "A-3",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "target",
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-019",
+  "rater": "A-3",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-020",
+  "rater": "A-3",
+  "selected_categories": [
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "style",
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-005",
+  "rater": "A-3",
+  "selected_categories": [
+   "other"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-006",
+  "rater": "A-3",
+  "selected_categories": [
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-007",
+  "rater": "A-3",
+  "selected_categories": [
+   "other"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-002",
+  "rater": "A-3",
+  "selected_categories": [
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-007",
+  "rater": "A-3",
+  "selected_categories": [
+   "other"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-008",
+  "rater": "A-3",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-008",
+  "rater": "A-3",
+  "selected_categories": [
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-009",
+  "rater": "A-3",
+  "selected_categories": [
+   "other"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-010",
+  "rater": "A-3",
+  "selected_categories": [
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "target",
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-011",
+  "rater": "A-3",
+  "selected_categories": [
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-012",
+  "rater": "A-3",
+  "selected_categories": [
+   "target"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-013",
+  "rater": "A-3",
+  "selected_categories": [
+   "other"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-015",
+  "rater": "A-3",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-016",
+  "rater": "A-3",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-019",
+  "rater": "A-3",
+  "selected_categories": [
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-002",
+  "rater": "A-3",
+  "selected_categories": [
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-003",
+  "rater": "A-3",
+  "selected_categories": [
+   "value"
+  ],
+  "annotated_categories": [
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-005",
+  "rater": "A-3",
+  "selected_categories": [
+   "other"
+  ],
+  "annotated_categories": [
+   "target"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-006",
+  "rater": "A-3",
+  "selected_categories": [
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-009",
+  "rater": "A-3",
+  "selected_categories": [
+   "target"
+  ],
+  "annotated_categories": [
+   "target",
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-011",
+  "rater": "A-3",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-012",
+  "rater": "A-3",
+  "selected_categories": [
+   "other"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-013",
+  "rater": "A-3",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "other",
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-015",
+  "rater": "A-3",
+  "selected_categories": [
+   "value"
+  ],
+  "annotated_categories": [
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-016",
+  "rater": "A-3",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-019",
+  "rater": "A-3",
+  "selected_categories": [
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "timing",
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-020",
+  "rater": "A-3",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-010",
+  "rater": "A-3",
+  "selected_categories": [
+   "other"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-012",
+  "rater": "A-3",
+  "selected_categories": [
+   "target",
+   "text",
+   "timing"
+  ],
+  "annotated_categories": [
+   "target",
+   "text"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-013",
+  "rater": "A-3",
+  "selected_categories": [
+   "value"
+  ],
+  "annotated_categories": [
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-015",
+  "rater": "A-3",
+  "selected_categories": [
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "timing",
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-016",
+  "rater": "A-3",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-017",
+  "rater": "A-3",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-018",
+  "rater": "A-3",
+  "selected_categories": [
+   "style",
+   "target",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-019",
+  "rater": "A-3",
+  "selected_categories": [
+   "other"
+  ],
+  "annotated_categories": [
+   "style"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-020",
+  "rater": "A-3",
+  "selected_categories": [
+   "other"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-005",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-006",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-007",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-005",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "timing"
+  ],
+  "annotated_categories": [
+   "style",
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-011",
+  "rater": "A-4",
+  "selected_categories": [
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-013",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-014",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-015",
+  "rater": "A-4",
+  "selected_categories": [
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-016",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "style"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-018",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "target",
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-019",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-020",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-005",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-006",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-007",
+  "rater": "A-4",
+  "selected_categories": [
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-008",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-009",
+  "rater": "A-4",
+  "selected_categories": [
+   "target",
+   "text",
+   "timing"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-010",
+  "rater": "A-4",
+  "selected_categories": [
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "target",
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-011",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-012",
+  "rater": "A-4",
+  "selected_categories": [
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-013",
+  "rater": "A-4",
+  "selected_categories": [
+   "target",
+   "text",
+   "timing"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-015",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-016",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-019",
+  "rater": "A-4",
+  "selected_categories": [
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-002",
+  "rater": "A-4",
+  "selected_categories": [
+   "timing"
+  ],
+  "annotated_categories": [
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-003",
+  "rater": "A-4",
+  "selected_categories": [
+   "value"
+  ],
+  "annotated_categories": [
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-005",
+  "rater": "A-4",
+  "selected_categories": [
+   "target"
+  ],
+  "annotated_categories": [
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-006",
+  "rater": "A-4",
+  "selected_categories": [
+   "target"
+  ],
+  "annotated_categories": [
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-009",
+  "rater": "A-4",
+  "selected_categories": [
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "target",
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-011",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-012",
+  "rater": "A-4",
+  "selected_categories": [
+   "target"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-013",
+  "rater": "A-4",
+  "selected_categories": [
+   "value"
+  ],
+  "annotated_categories": [
+   "other",
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-015",
+  "rater": "A-4",
+  "selected_categories": [
+   "value"
+  ],
+  "annotated_categories": [
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-016",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-019",
+  "rater": "A-4",
+  "selected_categories": [
+   "timing"
+  ],
+  "annotated_categories": [
+   "timing",
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-020",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-002",
+  "rater": "A-4",
+  "selected_categories": [
+   "timing"
+  ],
+  "annotated_categories": [
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-007",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-008",
+  "rater": "A-4",
+  "selected_categories": [
+   "style"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-010",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-012",
+  "rater": "A-4",
+  "selected_categories": [
+   "text"
+  ],
+  "annotated_categories": [
+   "target",
+   "text"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-013",
+  "rater": "A-4",
+  "selected_categories": [
+   "target",
+   "value"
+  ],
+  "annotated_categories": [
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-015",
+  "rater": "A-4",
+  "selected_categories": [
+   "timing"
+  ],
+  "annotated_categories": [
+   "timing",
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-016",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-017",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-018",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-019",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-010",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-020",
+  "rater": "A-4",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-016",
+  "rater": "A-2",
+  "selected_categories": [
+   "style",
+   "target"
+  ],
+  "annotated_categories": [
+   "style"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-010",
+  "rater": "A-2",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-007",
+  "rater": "A-2",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-006",
+  "rater": "A-2",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-005",
+  "rater": "A-2",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-011",
+  "rater": "A-2",
+  "selected_categories": [
+   "target"
+  ],
+  "annotated_categories": [
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-013",
+  "rater": "A-2",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-014",
+  "rater": "A-2",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-015",
+  "rater": "A-2",
+  "selected_categories": [
+   "target"
+  ],
+  "annotated_categories": [
+   "style",
+   "value"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-018",
+  "rater": "A-2",
+  "selected_categories": [
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "target",
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-019",
+  "rater": "A-2",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-020",
+  "rater": "A-2",
+  "selected_categories": [
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-005",
+  "rater": "A-2",
+  "selected_categories": [
+   "target"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-006",
+  "rater": "A-2",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-007",
+  "rater": "A-2",
+  "selected_categories": [
+   "target"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-008",
+  "rater": "A-2",
+  "selected_categories": [
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-009",
+  "rater": "A-2",
+  "selected_categories": [
+   "text",
+   "value"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-010",
+  "rater": "A-2",
+  "selected_categories": [
+   "target"
+  ],
+  "annotated_categories": [
+   "target",
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-011",
+  "rater": "A-2",
+  "selected_categories": [
+   "style"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-012",
+  "rater": "A-2",
+  "selected_categories": [
+   "timing"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-013",
+  "rater": "A-2",
+  "selected_categories": [
+   "target",
+   "text",
+   "timing"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-015",
+  "rater": "A-2",
+  "selected_categories": [
+   "style"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-016",
+  "rater": "A-2",
+  "selected_categories": [
+   "style",
+   "target",
+   "value"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-019",
+  "rater": "A-2",
+  "selected_categories": [
+   "target"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-002",
+  "rater": "A-2",
+  "selected_categories": [
+   "timing"
+  ],
+  "annotated_categories": [
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-003",
+  "rater": "A-2",
+  "selected_categories": [
+   "value"
+  ],
+  "annotated_categories": [
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-005",
+  "rater": "A-2",
+  "selected_categories": [
+   "target"
+  ],
+  "annotated_categories": [
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-006",
+  "rater": "A-2",
+  "selected_categories": [
+   "target"
+  ],
+  "annotated_categories": [
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-009",
+  "rater": "A-2",
+  "selected_categories": [
+   "target"
+  ],
+  "annotated_categories": [
+   "target",
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-011",
+  "rater": "A-2",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-012",
+  "rater": "A-2",
+  "selected_categories": [
+   "target"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-013",
+  "rater": "A-2",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "other",
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-015",
+  "rater": "A-2",
+  "selected_categories": [
+   "value"
+  ],
+  "annotated_categories": [
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-016",
+  "rater": "A-2",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-019",
+  "rater": "A-2",
+  "selected_categories": [
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "timing",
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-020",
+  "rater": "A-2",
+  "selected_categories": [
+   "style",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-002",
+  "rater": "A-2",
+  "selected_categories": [
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-007",
+  "rater": "A-2",
+  "selected_categories": [
+   "other",
+   "style"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-008",
+  "rater": "A-2",
+  "selected_categories": [
+   "target"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-010",
+  "rater": "A-2",
+  "selected_categories": [
+   "style",
+   "target",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-012",
+  "rater": "A-2",
+  "selected_categories": [
+   "style",
+   "target",
+   "text",
+   "value"
+  ],
+  "annotated_categories": [
+   "target",
+   "text"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-013",
+  "rater": "A-2",
+  "selected_categories": [
+   "style"
+  ],
+  "annotated_categories": [
+   "value"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-015",
+  "rater": "A-2",
+  "selected_categories": [
+   "timing"
+  ],
+  "annotated_categories": [
+   "timing",
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-016",
+  "rater": "A-2",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-017",
+  "rater": "A-2",
+  "selected_categories": [
+   "style",
+   "target"
+  ],
+  "annotated_categories": [
+   "style"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-018",
+  "rater": "A-2",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-019",
+  "rater": "A-2",
+  "selected_categories": [
+   "style"
+  ],
+  "annotated_categories": [
+   "style"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-020",
+  "rater": "A-2",
+  "selected_categories": [
+   "style",
+   "target",
+   "value"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-006",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "target",
+   "text",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-007",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "target",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-010",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "target",
+   "text",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-011",
+  "rater": "A-1",
+  "selected_categories": [
+   "other",
+   "target"
+  ],
+  "annotated_categories": [
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-013",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-014",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-015",
+  "rater": "A-1",
+  "selected_categories": [
+   "other",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-016",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "style"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-018",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "target",
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-019",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "target",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-020",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "target",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-005",
+  "rater": "A-1",
+  "selected_categories": [
+   "target",
+   "value"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-006",
+  "rater": "A-1",
+  "selected_categories": [
+   "other",
+   "style",
+   "target",
+   "value"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-007",
+  "rater": "A-1",
+  "selected_categories": [
+   "target"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-008",
+  "rater": "A-1",
+  "selected_categories": [
+   "other"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-009",
+  "rater": "A-1",
+  "selected_categories": [
+   "text",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-010",
+  "rater": "A-1",
+  "selected_categories": [
+   "style"
+  ],
+  "annotated_categories": [
+   "target",
+   "timing"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-011",
+  "rater": "A-1",
+  "selected_categories": [
+   "style"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-012",
+  "rater": "A-1",
+  "selected_categories": [
+   "target"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-013",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "text",
+   "timing"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-015",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-016",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "target",
+   "value"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-019",
+  "rater": "A-1",
+  "selected_categories": [
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-002",
+  "rater": "A-1",
+  "selected_categories": [
+   "timing"
+  ],
+  "annotated_categories": [
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-003",
+  "rater": "A-1",
+  "selected_categories": [
+   "value"
+  ],
+  "annotated_categories": [
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-005",
+  "rater": "A-1",
+  "selected_categories": [
+   "timing"
+  ],
+  "annotated_categories": [
+   "target"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-006",
+  "rater": "A-1",
+  "selected_categories": [
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-009",
+  "rater": "A-1",
+  "selected_categories": [
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "target",
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-011",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-012",
+  "rater": "A-1",
+  "selected_categories": [
+   "target",
+   "timing"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-013",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "other",
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-015",
+  "rater": "A-1",
+  "selected_categories": [
+   "value"
+  ],
+  "annotated_categories": [
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-016",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-019",
+  "rater": "A-1",
+  "selected_categories": [
+   "timing"
+  ],
+  "annotated_categories": [
+   "timing",
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-020",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-002",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "timing"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-007",
+  "rater": "A-1",
+  "selected_categories": [
+   "other",
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-008",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "target",
+   "value"
+  ],
+  "annotated_categories": [
+   "other"
+  ],
+  "overlap": false,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-010",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "target",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-012",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "text"
+  ],
+  "annotated_categories": [
+   "target",
+   "text"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-013",
+  "rater": "A-1",
+  "selected_categories": [
+   "value"
+  ],
+  "annotated_categories": [
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": true
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-015",
+  "rater": "A-1",
+  "selected_categories": [
+   "timing"
+  ],
+  "annotated_categories": [
+   "timing",
+   "value"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-016",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "style"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-017",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "target",
+   "value"
+  ],
+  "annotated_categories": [
+   "style"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-018",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-019",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "value"
+  ],
+  "annotated_categories": [
+   "style"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-020",
+  "rater": "A-1",
+  "selected_categories": [
+   "style",
+   "target",
+   "timing",
+   "value"
+  ],
+  "annotated_categories": [
+   "other",
+   "target"
+  ],
+  "overlap": true,
+  "exact_set_match": false
+ }
+]

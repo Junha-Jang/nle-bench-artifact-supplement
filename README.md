@@ -8,9 +8,10 @@ Supporting artifacts for the NeurIPS 2026 author response (submission 2775).
 - rewrite_manifest/ — v3→v3.1 change decomposition (344 = 224 instruction + 106 constraints-only + 14 fixture-affecting),
   holdout SRs, borderline-overlap table.
 - tool_usage/ — per-tool call counts, tool-conditioned SR, execution-axis decomposition.
-- blinded_rerating/ — frozen sample manifest (SHA-256 recorded in frozen_sample_manifest.sha256 at freeze time, before any re-rating), aggregate re-rating results (t3_results), supplementary analyses, structured disputed-item table; per-rater tables added with the final update.
+- blinded_rerating/ — frozen sample manifest (SHA-256 recorded in frozen_sample_manifest.sha256 at freeze time, before any re-rating), aggregate re-rating results (t3_results), supplementary analyses, structured disputed-item table; full 200 x 6 per-item rating matrix included.
 - coverage_adjudication/ — pre-screen pessimistic-bound table (per-model [bound, released], with Spearman); the author-adjudicated 173-flag sheet follows during discussion.
-- correct_slot/ — per-model any-vs-correct-slot success rates over all 11,760 stored clarify judgments (median gap 10.4pp); the 500-rating human audit of the matcher follows during discussion.
+- direction_rescore/ — per-model effect of the 1341->1301 direction-enforcement rescore (also in the submitted supplementary material).
+- correct_slot/ — external slot-category judgments (192 = 48 scenarios x 4 raters, with overlap flags) and per-model any-vs-correct-slot success rates over all 11,760 stored clarify judgments (median gap 10.4pp); the 500-rating human audit of the matcher follows during discussion.
 
 No author-identifying information is included. Rater identities are pseudonymous codes (external re-rating: A-1..A-4; internal double-coding: B-1, B-2; refusal audit: R-1, R-2).
 
