@@ -1,10 +1,13 @@
 # Strict-preservation sensitivity (T2)
 
-`t2_strict_rescore_results.json` carries BOTH variants for all 56 model/configuration rows:
+`t2_strict_rescore_results.json` carries BOTH variants for all 55 model/configuration rows.
+`gemini-3.1-pro-preview` is excluded, matching `results/excluded_nonrecomputable_rows.csv` in
+the main artifact (its raw results file is corrupted and inconsistent with the aggregate
+summary), so 55 is the same denominator the rest of the response packet uses:
 
 - `delta_pp_preexisting` - median -1.51pp, worst -5.31pp (gemini-3-flash-preview).
   Restricts the added `unchanged_except` check to entities present in the initial state.
-- `delta_pp_full` - median -4.74pp, worst -12.81pp (same model).
+- `delta_pp_full` - median -4.95pp, worst -12.81pp (same model).
   Applies the check to every entity, which also penalizes intended additions, because
   `add`-type tools mint harness-generated IDs that cannot be listed in advance.
 

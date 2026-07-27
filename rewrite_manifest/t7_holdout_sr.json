@@ -2,12 +2,12 @@
  "rewritten": {
   "context": 22.2,
   "diagnosis": 32.3,
-  "explicit": 22.1,
+  "explicit": 21.2,
   "state": 23.7
  },
  "unchanged": {
   "context": 20.6,
-  "explicit": 26.4,
+  "explicit": 26.6,
   "state": 24.0
  }
 }

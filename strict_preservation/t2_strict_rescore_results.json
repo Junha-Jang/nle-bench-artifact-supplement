@@ -582,18 +582,6 @@
     "NLB-v3-CX-DE-030"
    ]
   },
-  "gemini-3.1-pro-preview": {
-   "total_feasible_records": 670,
-   "orig_success": 5,
-   "strict_new_fail_full": 2,
-   "strict_new_fail_preexisting": 0,
-   "sr_feas": 0.75,
-   "sr_feas_strict_full": 0.45,
-   "sr_feas_strict_preexisting": 0.75,
-   "delta_pp_full": -0.3,
-   "delta_pp_preexisting": 0.0,
-   "fail_case_sample_preexisting": []
-  },
   "google/gemma-2-27b-it": {
    "total_feasible_records": 1920,
    "orig_success": 383,
@@ -1141,7 +1129,11 @@
  },
  "parse_errors": 0,
  "summary": {
-  "spearman_released_vs_strict_preexisting": 0.9987,
-  "n_rows": 56
+  "spearman_released_vs_strict_preexisting": 0.9986,
+  "n_rows": 55,
+  "excluded_rows": [
+   "gemini-3.1-pro-preview"
+  ],
+  "excluded_reason": "Listed in results/excluded_nonrecomputable_rows.csv: matched raw results.jsonl is corrupted/inconsistent with the aggregate summary."
  }
 }

@@ -4,7 +4,7 @@ Supporting artifacts for the NeurIPS 2026 author response (submission 2775).
 
 - refusal_audit/ — per-record labels from three judge configurations across two vendors over all 1,920
   infeasible-track records; judge prompt spec; validator-vs-majority table; 20 raw outputs stratified by response format (10 text-only, 10 mixed tool-call+text); human-audit per-record labels, rater-effect summary, a joined human/detector/judge table with boundary flags, and a judge-dependence + ranking-survival summary.
-- strict_preservation/ — unchanged_except sensitivity rescore (273 scenarios, 56 model/configuration rows, both variants, with Spearman fields).
+- strict_preservation/ — unchanged_except sensitivity rescore (273 scenarios, 55 model/configuration rows, both variants, with Spearman fields).
 - rewrite_manifest/ — v3→v3.1 change decomposition (344 = 224 instruction + 106 constraints-only + 14 fixture-affecting),
   holdout SRs, borderline-overlap table.
 - tool_usage/ — per-tool call counts, tool-conditioned SR, execution-axis decomposition.
