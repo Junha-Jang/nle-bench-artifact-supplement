@@ -1,0 +1,29 @@
+{
+ "overall": {
+  "CONFIRMED_GAP": 140,
+  "COVERED": 31,
+  "AMBIGUOUS": 2
+ },
+ "per_flag": {
+  "split_position_without_position_constraint": {
+   "CONFIRMED_GAP": 48
+  },
+  "time_mention_without_time_constraint": {
+   "CONFIRMED_GAP": 109,
+   "COVERED": 4
+  },
+  "caption_or_title_time_coverage_candidate": {
+   "CONFIRMED_GAP": 46,
+   "COVERED": 1
+  },
+  "spatial_position_without_position_constraint": {
+   "CONFIRMED_GAP": 12,
+   "COVERED": 10
+  },
+  "duration_mention_without_duration_constraint": {
+   "COVERED": 17,
+   "CONFIRMED_GAP": 22,
+   "AMBIGUOUS": 2
+  }
+ }
+}

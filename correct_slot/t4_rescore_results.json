@@ -1,0 +1,339 @@
+{
+ "per_model": {
+  "01-ai/Yi-1.5-34B-Chat": {
+   "n": 240,
+   "sr_amb_any": 0.0,
+   "sr_amb_correct_slot": 0.0,
+   "gap_pp": 0.0
+  },
+  "Qwen/QwQ-32B": {
+   "n": 240,
+   "sr_amb_any": 58.8,
+   "sr_amb_correct_slot": 53.3,
+   "gap_pp": 5.4
+  },
+  "Qwen/Qwen2.5-14B-Instruct": {
+   "n": 240,
+   "sr_amb_any": 71.7,
+   "sr_amb_correct_slot": 67.1,
+   "gap_pp": 4.6
+  },
+  "Qwen/Qwen2.5-32B-Instruct": {
+   "n": 240,
+   "sr_amb_any": 68.3,
+   "sr_amb_correct_slot": 62.1,
+   "gap_pp": 6.2
+  },
+  "Qwen/Qwen2.5-7B-Instruct": {
+   "n": 240,
+   "sr_amb_any": 38.8,
+   "sr_amb_correct_slot": 29.2,
+   "gap_pp": 9.6
+  },
+  "Qwen/Qwen3-0.6B": {
+   "n": 240,
+   "sr_amb_any": 80.0,
+   "sr_amb_correct_slot": 44.6,
+   "gap_pp": 35.4
+  },
+  "Qwen/Qwen3-1.7B": {
+   "n": 240,
+   "sr_amb_any": 54.6,
+   "sr_amb_correct_slot": 41.7,
+   "gap_pp": 12.9
+  },
+  "Qwen/Qwen3-32B": {
+   "n": 240,
+   "sr_amb_any": 67.5,
+   "sr_amb_correct_slot": 60.0,
+   "gap_pp": 7.5
+  },
+  "Qwen/Qwen3-4B": {
+   "n": 240,
+   "sr_amb_any": 35.0,
+   "sr_amb_correct_slot": 31.7,
+   "gap_pp": 3.3
+  },
+  "Qwen/Qwen3-8B": {
+   "n": 240,
+   "sr_amb_any": 52.1,
+   "sr_amb_correct_slot": 45.8,
+   "gap_pp": 6.2
+  },
+  "Qwen/Qwen3.5-0.8B": {
+   "n": 240,
+   "sr_amb_any": 59.6,
+   "sr_amb_correct_slot": 29.2,
+   "gap_pp": 30.4
+  },
+  "Qwen/Qwen3.5-27B": {
+   "n": 240,
+   "sr_amb_any": 75.8,
+   "sr_amb_correct_slot": 64.6,
+   "gap_pp": 11.2
+  },
+  "Qwen/Qwen3.5-2B": {
+   "n": 240,
+   "sr_amb_any": 74.6,
+   "sr_amb_correct_slot": 58.3,
+   "gap_pp": 16.2
+  },
+  "Qwen/Qwen3.5-35B-A3B": {
+   "n": 240,
+   "sr_amb_any": 73.8,
+   "sr_amb_correct_slot": 58.8,
+   "gap_pp": 15.0
+  },
+  "Qwen/Qwen3.5-4B": {
+   "n": 240,
+   "sr_amb_any": 65.0,
+   "sr_amb_correct_slot": 48.8,
+   "gap_pp": 16.2
+  },
+  "Qwen/Qwen3.5-9B": {
+   "n": 240,
+   "sr_amb_any": 59.6,
+   "sr_amb_correct_slot": 43.8,
+   "gap_pp": 15.8
+  },
+  "allenai/OLMo-2-1124-13B-Instruct": {
+   "n": 240,
+   "sr_amb_any": 0.0,
+   "sr_amb_correct_slot": 0.0,
+   "gap_pp": 0.0
+  },
+  "allenai/Olmo-3-7B-Instruct": {
+   "n": 240,
+   "sr_amb_any": 76.2,
+   "sr_amb_correct_slot": 56.7,
+   "gap_pp": 19.6
+  },
+  "claude-haiku-4-5": {
+   "n": 80,
+   "sr_amb_any": 73.8,
+   "sr_amb_correct_slot": 58.8,
+   "gap_pp": 15.0
+  },
+  "claude-haiku-4-5-20251001": {
+   "n": 80,
+   "sr_amb_any": 23.8,
+   "sr_amb_correct_slot": 22.5,
+   "gap_pp": 1.2
+  },
+  "claude-sonnet-4-6": {
+   "n": 80,
+   "sr_amb_any": 77.5,
+   "sr_amb_correct_slot": 70.0,
+   "gap_pp": 7.5
+  },
+  "deepseek-ai/DeepSeek-R1-Distill-Llama-8B": {
+   "n": 240,
+   "sr_amb_any": 100.0,
+   "sr_amb_correct_slot": 5.0,
+   "gap_pp": 95.0
+  },
+  "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B": {
+   "n": 240,
+   "sr_amb_any": 95.4,
+   "sr_amb_correct_slot": 22.1,
+   "gap_pp": 73.3
+  },
+  "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B": {
+   "n": 240,
+   "sr_amb_any": 44.6,
+   "sr_amb_correct_slot": 36.2,
+   "gap_pp": 8.3
+  },
+  "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B": {
+   "n": 240,
+   "sr_amb_any": 46.2,
+   "sr_amb_correct_slot": 38.8,
+   "gap_pp": 7.5
+  },
+  "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B": {
+   "n": 240,
+   "sr_amb_any": 77.9,
+   "sr_amb_correct_slot": 35.8,
+   "gap_pp": 42.1
+  },
+  "gemini-2.5-flash": {
+   "n": 80,
+   "sr_amb_any": 92.5,
+   "sr_amb_correct_slot": 68.8,
+   "gap_pp": 23.8
+  },
+  "gemini-3-flash-preview": {
+   "n": 80,
+   "sr_amb_any": 53.8,
+   "sr_amb_correct_slot": 51.2,
+   "gap_pp": 2.5
+  },
+  "google/gemma-2-27b-it": {
+   "n": 240,
+   "sr_amb_any": 1.2,
+   "sr_amb_correct_slot": 0.0,
+   "gap_pp": 1.2
+  },
+  "google/gemma-2-9b-it": {
+   "n": 240,
+   "sr_amb_any": 3.8,
+   "sr_amb_correct_slot": 3.8,
+   "gap_pp": 0.0
+  },
+  "google/gemma-4-26B-A4B-it": {
+   "n": 240,
+   "sr_amb_any": 22.5,
+   "sr_amb_correct_slot": 20.0,
+   "gap_pp": 2.5
+  },
+  "google/gemma-4-31B-it": {
+   "n": 240,
+   "sr_amb_any": 53.8,
+   "sr_amb_correct_slot": 43.3,
+   "gap_pp": 10.4
+  },
+  "google/gemma-4-E2B-it": {
+   "n": 240,
+   "sr_amb_any": 81.2,
+   "sr_amb_correct_slot": 79.2,
+   "gap_pp": 2.1
+  },
+  "google/gemma-4-E4B-it": {
+   "n": 240,
+   "sr_amb_any": 92.5,
+   "sr_amb_correct_slot": 82.1,
+   "gap_pp": 10.4
+  },
+  "gpt-5.4": {
+   "n": 80,
+   "sr_amb_any": 76.2,
+   "sr_amb_correct_slot": 50.0,
+   "gap_pp": 26.2
+  },
+  "gpt-5.4-mini": {
+   "n": 80,
+   "sr_amb_any": 81.2,
+   "sr_amb_correct_slot": 42.5,
+   "gap_pp": 38.8
+  },
+  "internlm/internlm3-8b-instruct": {
+   "n": 240,
+   "sr_amb_any": 30.8,
+   "sr_amb_correct_slot": 10.0,
+   "gap_pp": 20.8
+  },
+  "meta-llama/Llama-3.1-8B-Instruct": {
+   "n": 240,
+   "sr_amb_any": 11.2,
+   "sr_amb_correct_slot": 6.7,
+   "gap_pp": 4.6
+  },
+  "meta-llama/Llama-3.2-1B-Instruct": {
+   "n": 240,
+   "sr_amb_any": 39.6,
+   "sr_amb_correct_slot": 8.3,
+   "gap_pp": 31.2
+  },
+  "meta-llama/Llama-3.2-3B-Instruct": {
+   "n": 240,
+   "sr_amb_any": 0.4,
+   "sr_amb_correct_slot": 0.0,
+   "gap_pp": 0.4
+  },
+  "microsoft/Phi-4": {
+   "n": 240,
+   "sr_amb_any": 50.4,
+   "sr_amb_correct_slot": 32.9,
+   "gap_pp": 17.5
+  },
+  "microsoft/Phi-4-mini-instruct": {
+   "n": 240,
+   "sr_amb_any": 41.7,
+   "sr_amb_correct_slot": 23.3,
+   "gap_pp": 18.3
+  },
+  "mistralai/Mistral-Nemo-Instruct-2407": {
+   "n": 240,
+   "sr_amb_any": 31.7,
+   "sr_amb_correct_slot": 19.2,
+   "gap_pp": 12.5
+  },
+  "mistralai/Mistral-Small-24B-Instruct-2501": {
+   "n": 240,
+   "sr_amb_any": 56.7,
+   "sr_amb_correct_slot": 44.2,
+   "gap_pp": 12.5
+  },
+  "mistralai/Mistral-Small-3.2-24B-Instruct-2506": {
+   "n": 240,
+   "sr_amb_any": 73.3,
+   "sr_amb_correct_slot": 59.6,
+   "gap_pp": 13.7
+  },
+  "o3-mini": {
+   "n": 80,
+   "sr_amb_any": 71.2,
+   "sr_amb_correct_slot": 70.0,
+   "gap_pp": 1.2
+  },
+  "o4-mini": {
+   "n": 80,
+   "sr_amb_any": 91.2,
+   "sr_amb_correct_slot": 86.2,
+   "gap_pp": 5.0
+  },
+  "openai/gpt-oss-120b": {
+   "n": 240,
+   "sr_amb_any": 79.6,
+   "sr_amb_correct_slot": 61.2,
+   "gap_pp": 18.3
+  },
+  "openai/gpt-oss-20b": {
+   "n": 240,
+   "sr_amb_any": 83.8,
+   "sr_amb_correct_slot": 65.8,
+   "gap_pp": 17.9
+  },
+  "openbmb/MiniCPM4-8B": {
+   "n": 240,
+   "sr_amb_any": 19.6,
+   "sr_amb_correct_slot": 9.6,
+   "gap_pp": 10.0
+  },
+  "tiiuae/Falcon3-10B-Instruct": {
+   "n": 240,
+   "sr_amb_any": 4.6,
+   "sr_amb_correct_slot": 4.6,
+   "gap_pp": 0.0
+  },
+  "tiiuae/Falcon3-1B-Instruct": {
+   "n": 240,
+   "sr_amb_any": 0.0,
+   "sr_amb_correct_slot": 0.0,
+   "gap_pp": 0.0
+  },
+  "tiiuae/Falcon3-3B-Instruct": {
+   "n": 240,
+   "sr_amb_any": 0.0,
+   "sr_amb_correct_slot": 0.0,
+   "gap_pp": 0.0
+  },
+  "tiiuae/Falcon3-7B-Instruct": {
+   "n": 240,
+   "sr_amb_any": 5.4,
+   "sr_amb_correct_slot": 1.2,
+   "gap_pp": 4.2
+  },
+  "zai-org/GLM-4-32B-0414": {
+   "n": 240,
+   "sr_amb_any": 83.8,
+   "sr_amb_correct_slot": 72.9,
+   "gap_pp": 10.8
+  }
+ },
+ "summary": {
+  "models": 55,
+  "median_gap_pp": 10.4,
+  "max_gap_pp": 95.0
+ }
+}
