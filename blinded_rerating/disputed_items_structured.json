@@ -1,0 +1,443 @@
+[
+ {
+  "scenario_id": "NLEB-AM-CX-006",
+  "released": "ambiguous",
+  "majority": "tie",
+  "votes": {
+   "feasible": 2,
+   "ambiguous": 2
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-007",
+  "released": "ambiguous",
+  "majority": "tie",
+  "votes": {
+   "feasible": 2,
+   "ambiguous": 2
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-013",
+  "released": "ambiguous",
+  "majority": "feasible",
+  "votes": {
+   "infeasible": 1,
+   "feasible": 2,
+   "ambiguous": 1
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-015",
+  "released": "ambiguous",
+  "majority": "infeasible",
+  "votes": {
+   "ambiguous": 1,
+   "feasible": 1,
+   "infeasible": 2
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-AM-CX-018",
+  "released": "ambiguous",
+  "majority": "tie",
+  "votes": {
+   "feasible": 2,
+   "ambiguous": 2
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-006",
+  "released": "ambiguous",
+  "majority": "tie",
+  "votes": {
+   "feasible": 2,
+   "ambiguous": 2
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-007",
+  "released": "ambiguous",
+  "majority": "tie",
+  "votes": {
+   "infeasible": 2,
+   "ambiguous": 2
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-010",
+  "released": "ambiguous",
+  "majority": "tie",
+  "votes": {
+   "ambiguous": 2,
+   "feasible": 2
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-AM-DI-019",
+  "released": "ambiguous",
+  "majority": "tie",
+  "votes": {
+   "infeasible": 2,
+   "ambiguous": 2
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-002",
+  "released": "ambiguous",
+  "majority": "tie",
+  "votes": {
+   "feasible": 2,
+   "ambiguous": 2
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-013",
+  "released": "ambiguous",
+  "majority": "tie",
+  "votes": {
+   "feasible": 2,
+   "ambiguous": 2
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-AM-EX-015",
+  "released": "ambiguous",
+  "majority": "feasible",
+  "votes": {
+   "feasible": 4
+  },
+  "has_memo": false
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-002",
+  "released": "ambiguous",
+  "majority": "tie",
+  "votes": {
+   "ambiguous": 2,
+   "feasible": 2
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-AM-ST-013",
+  "released": "ambiguous",
+  "majority": "tie",
+  "votes": {
+   "feasible": 2,
+   "ambiguous": 2
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-CX-AT-005",
+  "released": "feasible",
+  "majority": "tie",
+  "votes": {
+   "ambiguous": 2,
+   "feasible": 2
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-CX-CU-028",
+  "released": "feasible",
+  "majority": "tie",
+  "votes": {
+   "ambiguous": 2,
+   "feasible": 2
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-CX-CU-029",
+  "released": "feasible",
+  "majority": "tie",
+  "votes": {
+   "ambiguous": 2,
+   "feasible": 2
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-CX-DE-010",
+  "released": "feasible",
+  "majority": "ambiguous",
+  "votes": {
+   "ambiguous": 3,
+   "feasible": 1
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-DI-AT-011",
+  "released": "feasible",
+  "majority": "infeasible",
+  "votes": {
+   "ambiguous": 1,
+   "infeasible": 3
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-DI-AT-019",
+  "released": "feasible",
+  "majority": "tie",
+  "votes": {
+   "ambiguous": 2,
+   "feasible": 2
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-DI-AT-031",
+  "released": "feasible",
+  "majority": "ambiguous",
+  "votes": {
+   "infeasible": 1,
+   "feasible": 1,
+   "ambiguous": 2
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-DI-CO-026",
+  "released": "feasible",
+  "majority": "tie",
+  "votes": {
+   "feasible": 2,
+   "infeasible": 2
+  },
+  "has_memo": false
+ },
+ {
+  "scenario_id": "NLEB-DI-CU-010",
+  "released": "feasible",
+  "majority": "ambiguous",
+  "votes": {
+   "infeasible": 1,
+   "ambiguous": 2,
+   "feasible": 1
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-DI-CU-013",
+  "released": "feasible",
+  "majority": "tie",
+  "votes": {
+   "ambiguous": 2,
+   "feasible": 2
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-IN-CX-002",
+  "released": "infeasible",
+  "majority": "ambiguous",
+  "votes": {
+   "ambiguous": 3,
+   "feasible": 1
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-IN-CX-005",
+  "released": "infeasible",
+  "majority": "ambiguous",
+  "votes": {
+   "ambiguous": 3,
+   "feasible": 1
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-IN-CX-007",
+  "released": "infeasible",
+  "majority": "feasible",
+  "votes": {
+   "feasible": 3,
+   "ambiguous": 1
+  },
+  "has_memo": false
+ },
+ {
+  "scenario_id": "NLEB-IN-CX-008",
+  "released": "infeasible",
+  "majority": "feasible",
+  "votes": {
+   "infeasible": 1,
+   "feasible": 2,
+   "ambiguous": 1
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-IN-CX-010",
+  "released": "infeasible",
+  "majority": "ambiguous",
+  "votes": {
+   "ambiguous": 4
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-IN-CX-011",
+  "released": "infeasible",
+  "majority": "ambiguous",
+  "votes": {
+   "ambiguous": 3,
+   "infeasible": 1
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-IN-CX-012",
+  "released": "infeasible",
+  "majority": "tie",
+  "votes": {
+   "feasible": 2,
+   "infeasible": 2
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-IN-CX-017",
+  "released": "infeasible",
+  "majority": "feasible",
+  "votes": {
+   "ambiguous": 1,
+   "feasible": 3
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-IN-CX-020",
+  "released": "infeasible",
+  "majority": "tie",
+  "votes": {
+   "ambiguous": 2,
+   "infeasible": 2
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-IN-DI-008",
+  "released": "infeasible",
+  "majority": "feasible",
+  "votes": {
+   "feasible": 3,
+   "ambiguous": 1
+  },
+  "has_memo": false
+ },
+ {
+  "scenario_id": "NLEB-IN-EX-003",
+  "released": "infeasible",
+  "majority": "feasible",
+  "votes": {
+   "feasible": 3,
+   "infeasible": 1
+  },
+  "has_memo": false
+ },
+ {
+  "scenario_id": "NLEB-IN-EX-005",
+  "released": "infeasible",
+  "majority": "feasible",
+  "votes": {
+   "feasible": 4
+  },
+  "has_memo": false
+ },
+ {
+  "scenario_id": "NLEB-IN-EX-007",
+  "released": "infeasible",
+  "majority": "feasible",
+  "votes": {
+   "feasible": 4
+  },
+  "has_memo": false
+ },
+ {
+  "scenario_id": "NLEB-IN-EX-009",
+  "released": "infeasible",
+  "majority": "feasible",
+  "votes": {
+   "feasible": 4
+  },
+  "has_memo": false
+ },
+ {
+  "scenario_id": "NLEB-IN-EX-013",
+  "released": "infeasible",
+  "majority": "feasible",
+  "votes": {
+   "infeasible": 1,
+   "feasible": 2,
+   "ambiguous": 1
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-IN-EX-016",
+  "released": "infeasible",
+  "majority": "feasible",
+  "votes": {
+   "feasible": 4
+  },
+  "has_memo": false
+ },
+ {
+  "scenario_id": "NLEB-IN-EX-020",
+  "released": "infeasible",
+  "majority": "feasible",
+  "votes": {
+   "infeasible": 1,
+   "feasible": 3
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-IN-ST-003",
+  "released": "infeasible",
+  "majority": "feasible",
+  "votes": {
+   "feasible": 2,
+   "ambiguous": 1,
+   "infeasible": 1
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-IN-ST-004",
+  "released": "infeasible",
+  "majority": "ambiguous",
+  "votes": {
+   "ambiguous": 2,
+   "infeasible": 1,
+   "feasible": 1
+  },
+  "has_memo": true
+ },
+ {
+  "scenario_id": "NLEB-IN-ST-009",
+  "released": "infeasible",
+  "majority": "feasible",
+  "votes": {
+   "feasible": 4
+  },
+  "has_memo": false
+ }
+]

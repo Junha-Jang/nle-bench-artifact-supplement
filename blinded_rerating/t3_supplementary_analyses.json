@@ -1,0 +1,30 @@
+{
+ "open_weight_run_sd": {
+  "n_models": 46,
+  "median": 0.24,
+  "max": 1.34
+ },
+ "disputed_in": [
+  "NLEB-IN-EX-007",
+  "NLEB-IN-ST-003",
+  "NLEB-IN-CX-017",
+  "NLEB-IN-CX-008",
+  "NLEB-IN-EX-005",
+  "NLEB-IN-CX-007",
+  "NLEB-IN-EX-009",
+  "NLEB-IN-EX-013",
+  "NLEB-IN-ST-009",
+  "NLEB-IN-EX-020",
+  "NLEB-IN-DI-008",
+  "NLEB-IN-EX-003",
+  "NLEB-IN-EX-016"
+ ],
+ "exec_rate_disputed": 51.5,
+ "exec_rate_confirmed": 29.3,
+ "label_sensitivity": {
+  "disagree": 25,
+  "ties": 19,
+  "refusal_appropriate_all": 30.8,
+  "refusal_appropriate_kept": 39.3
+ }
+}

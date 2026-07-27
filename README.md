@@ -1,0 +1,16 @@
+# NLE-Bench Author-Response Supplement (anonymized)
+
+Supporting artifacts for the NeurIPS 2026 author response (submission 2775).
+
+- refusal_audit/ — per-record labels from three judge configurations across two vendors over all 1,920
+  infeasible-track records; judge prompt spec; validator-vs-majority table; 20 raw outputs stratified by response format (10 text-only, 10 mixed tool-call+text); human-audit per-record labels, rater-effect summary, a joined human/detector/judge table with boundary flags, and a judge-dependence + ranking-survival summary.
+- strict_preservation/ — unchanged_except sensitivity rescore (273 scenarios, 56 model/configuration rows, both variants, with Spearman fields).
+- rewrite_manifest/ — v3→v3.1 change decomposition (344 = 224 instruction + 106 constraints-only + 14 fixture-affecting),
+  holdout SRs, borderline-overlap table.
+- tool_usage/ — per-tool call counts, tool-conditioned SR, execution-axis decomposition.
+- blinded_rerating/ — frozen sample manifest, aggregate re-rating results (t3_results), supplementary analyses, structured disputed-item table; per-rater tables added with the final update.
+- coverage_adjudication/ — pre-screen pessimistic-bound table (per-model [bound, released], with Spearman); the author-adjudicated 173-flag sheet follows during discussion.
+
+No author-identifying information is included. Rater identities are pseudonymous codes (external re-rating: A-1..A-4; internal double-coding: B-1, B-2; refusal audit: R-1, R-2).
+
+All files here are data artifacts released under CC BY 4.0, matching the data licensing of the main artifact.

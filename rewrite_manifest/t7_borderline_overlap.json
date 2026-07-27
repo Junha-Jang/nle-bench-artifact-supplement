@@ -1,0 +1,22 @@
+{
+ "borderline": [
+  "NLEB-AM-DI-005",
+  "NLEB-AM-EX-004",
+  "NLEB-AM-ST-003",
+  "NLEB-CX-DE-009",
+  "NLEB-CX-DE-010",
+  "NLEB-DI-AT-008",
+  "NLEB-DI-CO-001",
+  "NLEB-DI-CU-010",
+  "NLEB-IN-EX-002",
+  "NLEB-IN-EX-003",
+  "NLEB-IN-EX-005",
+  "NLEB-ST-CO-006"
+ ],
+ "borderline_and_rewritten": [
+  "NLEB-AM-DI-005",
+  "NLEB-DI-AT-008",
+  "NLEB-DI-CO-001",
+  "NLEB-DI-CU-010"
+ ]
+}

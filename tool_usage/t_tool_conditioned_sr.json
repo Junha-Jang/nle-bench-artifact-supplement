@@ -1,0 +1,348 @@
+{
+ "tool_sr": {
+  "add_clip": {
+   "records": 4512,
+   "sr": 9.685283687943262
+  },
+  "update_clip": {
+   "records": 36985,
+   "sr": 42.00351493848858
+  },
+  "remove_clip": {
+   "records": 3615,
+   "sr": 40.11065006915629
+  },
+  "split_clip": {
+   "records": 4435,
+   "sr": 11.25140924464487
+  },
+  "add_caption": {
+   "records": 5512,
+   "sr": 27.19521044992743
+  },
+  "update_caption": {
+   "records": 2617,
+   "sr": 44.93695070691631
+  },
+  "remove_caption": {
+   "records": 1430,
+   "sr": 45.87412587412587
+  },
+  "add_effect": {
+   "records": 13387,
+   "sr": 38.701725554642564
+  },
+  "update_effect": {
+   "records": 1227,
+   "sr": 0.8149959250203749
+  },
+  "remove_effect": {
+   "records": 1980,
+   "sr": 48.333333333333336
+  },
+  "add_transition": {
+   "records": 4560,
+   "sr": 19.539473684210527
+  },
+  "update_transition": {
+   "records": 799,
+   "sr": 4.25531914893617
+  },
+  "remove_transition": {
+   "records": 2024,
+   "sr": 38.38932806324111
+  },
+  "add_track": {
+   "records": 2969,
+   "sr": 22.263388346244525
+  },
+  "update_track": {
+   "records": 932,
+   "sr": 47.103004291845494
+  },
+  "remove_track": {
+   "records": 591,
+   "sr": 57.69881556683587
+  },
+  "import_media": {
+   "records": 3065,
+   "sr": 19.216965742251222
+  },
+  "update_media": {
+   "records": 908,
+   "sr": 46.0352422907489
+  },
+  "remove_media": {
+   "records": 337,
+   "sr": 15.72700296735905
+  },
+  "add_sequence": {
+   "records": 465,
+   "sr": 42.1505376344086
+  },
+  "update_sequence": {
+   "records": 327,
+   "sr": 30.581039755351682
+  },
+  "manage_bin": {
+   "records": 728,
+   "sr": 43.40659340659341
+  },
+  "link_clips": {
+   "records": 2698,
+   "sr": 31.653076352853965
+  },
+  "unlink_clips": {
+   "records": 2729,
+   "sr": 24.661048002931476
+  },
+  "query_state": {
+   "records": 3440,
+   "sr": 7.296511627906977
+  }
+ },
+ "axis_sr": {
+  "AT": [
+   23520,
+   9438
+  ],
+  "CO": [
+   23520,
+   5617
+  ],
+  "DE": [
+   23520,
+   4600
+  ],
+  "CU": [
+   23520,
+   3913
+  ]
+ },
+ "axis_tools": {
+  "AT": {
+   "update_audio_volume": 3,
+   "remove_clip": 973,
+   "update_media": 178,
+   "split_clip": 1013,
+   "add_effect": 1548,
+   "update_transition": 318,
+   "add_clip": 751,
+   "add_sequence": 80,
+   "add_transition": 836,
+   "update_effect": 281,
+   "update_caption": 982,
+   "unlink_clips": 846,
+   "import_media": 460,
+   "update_clip": 7866,
+   "remove_transition": 778,
+   "add_track": 657,
+   "add_caption": 925,
+   "link_clips": 564,
+   "update_audio": 57,
+   "remove_link": 9,
+   "remove_caption": 340,
+   "remove_track": 261,
+   "manage_bin": 100,
+   "update_audio_track": 3,
+   "add_link_clips": 2,
+   "update_audio_clip": 7,
+   "remove_effect": 505,
+   "query_state": 1150,
+   "update_sequence": 84,
+   "update_track": 247,
+   "remove_media": 68,
+   "rename_clip": 3,
+   "bin_create": 2,
+   "rotate": 3,
+   "bgm": 2,
+   "add_link": 6,
+   "Update Title": 1,
+   "Update Clip": 1,
+   "Update Effect": 2,
+   "Update clip speed": 1,
+   "Remove transition": 1,
+   "Update clip properties": 2,
+   "Add transition between clips": 2,
+   "find_longest_clip": 3,
+   "find_min_clips_track": 3,
+   "add_bin": 6,
+   "create_bin": 3,
+   "add_media": 6
+  },
+  "CO": {
+   "remove_clip": 1145,
+   "add_clip": 1515,
+   "split_clip": 1108,
+   "update_clip": 14770,
+   "query_state": 1030,
+   "remove_transition": 548,
+   "add_transition": 1426,
+   "add_effect": 4941,
+   "add_caption": 1923,
+   "add_sequence": 170,
+   "update_effect": 482,
+   "remove_caption": 396,
+   "update_audio": 66,
+   "manage_bin": 394,
+   "import_media": 1010,
+   "update_sequence": 153,
+   "remove_track": 190,
+   "unlink_clips": 843,
+   "remove_media": 194,
+   "remove_effect": 954,
+   "update_caption": 641,
+   "update_transition": 336,
+   "remove_link_clips": 1,
+   "add_link_clips": 6,
+   "add_track": 852,
+   "update_track": 320,
+   "update_media": 431,
+   "link_clips": 986,
+   "update_audio_track_1": 8,
+   "update_audio_track": 12,
+   "remove_link": 12,
+   "update_audio_mute": 1,
+   "unlock_v2_clip": 1,
+   "unlock_clips": 1,
+   "update_video": 1,
+   "rename_media": 3,
+   "create_sequence": 3,
+   "unlink_clip": 7,
+   "shift_clip": 2,
+   "shift_timeline": 1,
+   "link_clip": 3,
+   "add_media": 5,
+   "rename_timeline": 3,
+   "create_bin": 2,
+   "update_audio_clip": 14,
+   "find_link_id": 1,
+   "find_longest_clip": 3,
+   "add_bin": 21,
+   "update_volume": 3,
+   ":update_clip": 1,
+   "add_link": 5,
+   "rename_track": 4,
+   "update_video_clip": 2,
+   "move_clip": 3,
+   "add_audio": 1,
+   "remove_effects": 3
+  },
+  "DE": {
+   "import_media": 758,
+   "add_clip": 1325,
+   "update_clip": 13236,
+   "add_caption": 1068,
+   "add_transition": 1195,
+   "add_track": 790,
+   "update_track": 182,
+   "split_clip": 1506,
+   "remove_transition": 599,
+   "remove_clip": 1376,
+   "update_caption": 495,
+   "link_clips": 638,
+   "update_effect": 132,
+   "add_effect": 3351,
+   "update_audio": 61,
+   "update_audio_position": 1,
+   "update_audio_volume": 2,
+   "flip_clip": 1,
+   "add_link_clips": 3,
+   "add_sequence": 91,
+   "add_cross_dissolve": 1,
+   "mute_clip": 1,
+   "remove_media": 73,
+   "remove_caption": 305,
+   "manage_bin": 100,
+   "update_media": 184,
+   "update_audio_track": 1,
+   "remove_effect": 309,
+   "unlink_clips": 620,
+   "delete_clip": 1,
+   "remove_link": 2,
+   "query_state": 684,
+   "unlink_clip": 3,
+   "move_clip": 5,
+   "extend_clip": 3,
+   "Scale Caption": 1,
+   "Font Size": 1,
+   "Remove Transition": 1,
+   "Swap Clips": 1,
+   "remove_track": 70,
+   "update_transition": 18,
+   ":remove_clip": 2,
+   ":update_clip": 3,
+   "move_media": 2,
+   "scale": 1,
+   "update_sequence": 1,
+   "remove_clips_referencing_media": 3,
+   "add_media": 8
+  },
+  "CU": {
+   "split_clip": 915,
+   "add_effect": 5465,
+   "update_audio": 109,
+   "add_caption": 1777,
+   "add_transition": 1148,
+   "update_effect": 391,
+   "update_clip": 14093,
+   "update_caption": 578,
+   "scale_clip": 2,
+   "add_clip": 1199,
+   "import_media": 838,
+   "update_transition": 149,
+   "remove_transition": 180,
+   "remove_clip": 507,
+   "link_clips": 661,
+   "remove_caption": 389,
+   "unlink_clips": 569,
+   "update_media": 123,
+   "update_audio_volume": 2,
+   "add_sequence": 124,
+   "add_track": 676,
+   "update_audio_clip": 26,
+   "extend_clip": 4,
+   "add_link_clips": 2,
+   "update_audio_effect": 1,
+   "manage_bin": 256,
+   "add_media": 7,
+   "update_audio_track": 12,
+   "update_audio_mute": 1,
+   "move_media": 7,
+   "update_sequence": 89,
+   "mute_clip": 1,
+   "rename": 1,
+   "mute_audio": 1,
+   "update_video": 5,
+   "unlink_clip": 3,
+   "query_state": 1118,
+   "update_track": 199,
+   "remove_track": 71,
+   "remove_media": 4,
+   "scale": 3,
+   "blur": 3,
+   "saturation": 3,
+   "brightness": 3,
+   "update_bin": 1,
+   "Update Clip": 1,
+   "V1": 2,
+   "add unlink": 1,
+   "contrast": 1,
+   "remove_effect": 220,
+   "add_bin": 9,
+   ":update_clip": 2,
+   "get media info": 3,
+   "add_crop": 2,
+   "add_track_to_track": 2,
+   "rename media": 3,
+   "update clip": 2,
+   "add media to bin": 2,
+   "create_sequence": 1,
+   "duplicate_clip": 2,
+   "add_time_shift": 1,
+   "link": 1,
+   "cascade-delete": 2,
+   "update_audio_clip_4": 1
+  }
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "n_scenarios_rated": 200,
+ "per_rater": {
+  "A-1": {
+   "n": 200,
+   "agree_released": 69.0
+  },
+  "A-2": {
+   "n": 200,
+   "agree_released": 77.5
+  },
+  "A-3": {
+   "n": 200,
+   "agree_released": 73.0
+  },
+  "A-4": {
+   "n": 200,
+   "agree_released": 72.0
+  },
+  "B-1": {
+   "n": 200,
+   "agree_released": 80.0
+  },
+  "B-2": {
+   "n": 200,
+   "agree_released": 67.0
+  }
+ },
+ "external_complete_items": 200,
+ "external_fleiss_kappa": 0.412,
+ "external_majority_vs_released": {
+  "agree_pct": 78.0,
+  "ci95": [
+   72.0,
+   83.5
+  ],
+  "ties": 19
+ },
+ "confusion_released_x_majority": {
+  "ambiguous|ambiguous": 34,
+  "ambiguous|feasible": 2,
+  "ambiguous|infeasible": 1,
+  "ambiguous|tie": 11,
+  "feasible|ambiguous": 3,
+  "feasible|feasible": 94,
+  "feasible|infeasible": 1,
+  "feasible|tie": 6,
+  "infeasible|ambiguous": 5,
+  "infeasible|feasible": 13,
+  "infeasible|infeasible": 28,
+  "infeasible|tie": 2
+ },
+ "majority_by_class": {
+  "feasible": {
+   "n": 104,
+   "agree_pct": 90.4
+  },
+  "infeasible": {
+   "n": 48,
+   "agree_pct": 58.3
+  },
+  "ambiguous": {
+   "n": 48,
+   "agree_pct": 70.8
+  }
+ },
+ "internal_pair": {
+  "n": 200,
+  "agree_pct": 69.5,
+  "cohen_kappa": 0.445
+ },
+ "armA_majority_vs_armB_consensus": {
+  "n": 131,
+  "agree_pct": 87.8
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "R-1": {
+  "non-refuse": 40,
+  "refuse": 57,
+  "indeterminate": 3
+ },
+ "R-2": {
+  "non-refuse": 35,
+  "indeterminate": 45,
+  "refuse": 20
+ }
+}

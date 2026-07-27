@@ -1,0 +1,50 @@
+{
+ "Qwen/QwQ-32B": {
+  "n": 240,
+  "majority_pct": 52.9,
+  "validator_pct": 64.6,
+  "band_pp": 11.7
+ },
+ "Qwen/Qwen2.5-32B-Instruct": {
+  "n": 240,
+  "majority_pct": 20.0,
+  "validator_pct": 23.3,
+  "band_pp": 3.3
+ },
+ "Qwen/Qwen3-32B": {
+  "n": 240,
+  "majority_pct": 42.5,
+  "validator_pct": 62.9,
+  "band_pp": 20.4
+ },
+ "Qwen/Qwen3-4B": {
+  "n": 240,
+  "majority_pct": 53.8,
+  "validator_pct": 61.7,
+  "band_pp": 7.9
+ },
+ "Qwen/Qwen3-8B": {
+  "n": 240,
+  "majority_pct": 52.9,
+  "validator_pct": 65.4,
+  "band_pp": 12.5
+ },
+ "Qwen/Qwen3.5-27B": {
+  "n": 240,
+  "majority_pct": 35.0,
+  "validator_pct": 45.4,
+  "band_pp": 10.4
+ },
+ "allenai/Olmo-3-7B-Instruct": {
+  "n": 240,
+  "majority_pct": 85.4,
+  "validator_pct": 92.5,
+  "band_pp": 7.1
+ },
+ "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B": {
+  "n": 240,
+  "majority_pct": 35.8,
+  "validator_pct": 62.1,
+  "band_pp": 26.2
+ }
+}

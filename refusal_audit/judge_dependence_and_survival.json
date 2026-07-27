@@ -1,0 +1,20 @@
+{
+ "judge_dependence": {
+  "unique_responses": 1502,
+  "gpt_high_vs_gpt_medium_pct": 97.8,
+  "gpt_high_vs_sonnet_pct": 93.3,
+  "gpt_medium_vs_sonnet_pct": 93.9,
+  "majority_equals_gpt_high": "1894/1920",
+  "majority_equals_sonnet": "1818/1920",
+  "validator_vs_majority_pct": 82.5,
+  "validator_vs_gpt_high_pct": 83.0,
+  "unanimity_pct": 92.8
+ },
+ "ranking_survival": {
+  "refusal_endpoint_spearman": 0.75,
+  "pairwise_indeterminate": "12/28",
+  "inverted_profile_gap_pp": 62.1,
+  "t4_any_vs_correct_spearman": 0.78,
+  "t4_top10_retained": "6/10"
+ }
+}
