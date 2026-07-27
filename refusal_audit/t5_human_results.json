@@ -6,29 +6,29 @@
  },
  "invalid_labels": [],
  "human_vs_detector": {
-  "non-refuse|거절": 10,
-  "non-refuse|거절아님": 74,
-  "non-refuse|애매": 16,
-  "refuse|거절": 67,
-  "refuse|거절아님": 1,
-  "refuse|애매": 32
+  "non-refuse|refusal": 10,
+  "non-refuse|non-refusal": 74,
+  "non-refuse|indeterminate": 16,
+  "refuse|refusal": 67,
+  "refuse|non-refusal": 1,
+  "refuse|indeterminate": 32
  },
  "detector_refuse_precision_vs_human": 98.5,
  "detector_refuse_recall_vs_human": 87.0,
  "human_ambiguous_n": 48,
  "human_vs_judge_majority": {
-  "clarify|거절": 20,
-  "clarify|애매": 16,
-  "execute|거절아님": 74,
-  "execute|애매": 9,
-  "noop|애매": 1,
-  "refuse|거절": 57,
-  "refuse|거절아님": 1,
-  "refuse|애매": 22
+  "clarify|refusal": 20,
+  "clarify|indeterminate": 16,
+  "execute|non-refusal": 74,
+  "execute|indeterminate": 9,
+  "noop|indeterminate": 1,
+  "refuse|refusal": 57,
+  "refuse|non-refusal": 1,
+  "refuse|indeterminate": 22
  },
  "human_vs_majority_binary_agree_pct": 86.2,
  "boundary_refuse_to_clarify_human_split": {
-  "거절": 15,
-  "애매": 12
+  "refusal": 15,
+  "indeterminate": 12
  }
 }
