@@ -1,0 +1,1204 @@
+{
+ "meta": {
+  "generated_by": "./t1_where_rescore.py",
+  "canonical_verdicts": "results/per_scenario_results_redacted.csv",
+  "manifest": "results/run_manifest.csv",
+  "scenario_dir": "nlebench/dataset/scenarios_v3_1/feasible",
+  "model_rows": 55,
+  "feasible_records_per_model": 1920,
+  "string_match": "strict = exact str equality; lenient = strip+casefold"
+ },
+ "class_size": {
+  "scenarios": 16,
+  "where_constraints": 23,
+  "constraints_holding_in_initial_state_released": 23,
+  "constraints_holding_in_initial_state_corrected": 0
+ },
+ "within_class": {
+  "released_successful_runs": 789,
+  "failing_under_corrected_strict": 397,
+  "failing_under_corrected_lenient": 397,
+  "fail_rate_pct_strict": 50.32,
+  "fail_rate_pct_lenient": 50.32
+ },
+ "delta_sr_feas_pp": {
+  "statistic_note": "strict.median = median over models of (corrected SR - released SR). difference_of_medians = median(corrected SR) - median(released SR). AC 에 보고된 -0.47pp 는 전자다.",
+  "difference_of_medians": -0.3125,
+  "strict": {
+   "median": -0.4688,
+   "min": -0.9375,
+   "max": 0.0,
+   "mean": -0.4309
+  },
+  "lenient": {
+   "median": -0.4688,
+   "min": -0.9375,
+   "max": 0.0
+  },
+  "ceiling_median_pp": -0.9375,
+  "released_median_sr_pct": 23.3333,
+  "corrected_median_sr_pct": 23.0208
+ },
+ "per_scenario": {
+  "NLB-v3-EX-CO-002": {
+   "yaml_id": "NLEB-EX-CO-002",
+   "path": "nlebench/dataset/scenarios_v3_1/feasible/explicit/compound/dev/NLEB-EX-CO-002.yaml",
+   "scale": "L1",
+   "cell": "explicit/compound",
+   "instruction": "Add a caption with text 'Chapter 1' at position 0.0s on video_track_1, and add a fade-in effect to video_clip_2.",
+   "n_where_constraints": 1,
+   "scored_records": 147,
+   "released_success": 61,
+   "corrected_success": 0,
+   "corrected_success_lenient": 0,
+   "newly_failing": 61,
+   "records_without_final_state": 10,
+   "released_success_unjudgeable": 0,
+   "corrected_satisfiable_any_record": 33,
+   "constraints": [
+    {
+     "params": {
+      "type": "caption",
+      "where": {
+       "field": "text",
+       "value": "Chapter 1"
+      }
+     },
+     "released_holds_initial": true,
+     "corrected_holds_initial": false,
+     "corrected_holds_initial_lenient": false,
+     "failing_records_strict": 61
+    }
+   ]
+  },
+  "NLB-v3-EX-CO-005": {
+   "yaml_id": "NLEB-EX-CO-005",
+   "path": "nlebench/dataset/scenarios_v3_1/feasible/explicit/compound/dev/NLEB-EX-CO-005.yaml",
+   "scale": "L1",
+   "cell": "explicit/compound",
+   "instruction": "video_clip_3: split at 2.5s, add brightness effect to the first part.",
+   "n_where_constraints": 1,
+   "scored_records": 147,
+   "released_success": 0,
+   "corrected_success": 0,
+   "corrected_success_lenient": 0,
+   "newly_failing": 0,
+   "records_without_final_state": 16,
+   "released_success_unjudgeable": 0,
+   "corrected_satisfiable_any_record": 2,
+   "constraints": [
+    {
+     "params": {
+      "type": "video_clip",
+      "where": {
+       "field": "duration",
+       "op": "<=",
+       "value": 2.5
+      }
+     },
+     "released_holds_initial": true,
+     "corrected_holds_initial": false,
+     "corrected_holds_initial_lenient": false,
+     "failing_records_strict": 0
+    }
+   ]
+  },
+  "NLB-v3-EX-CO-006": {
+   "yaml_id": "NLEB-EX-CO-006",
+   "path": "nlebench/dataset/scenarios_v3_1/feasible/explicit/compound/dev/NLEB-EX-CO-006.yaml",
+   "scale": "L2",
+   "cell": "explicit/compound",
+   "instruction": "Create a new video track called 'overlay_track' and add a clip from av_media_2 at position 0.0s with duration 3.0s on it.",
+   "n_where_constraints": 1,
+   "scored_records": 147,
+   "released_success": 0,
+   "corrected_success": 0,
+   "corrected_success_lenient": 0,
+   "newly_failing": 0,
+   "records_without_final_state": 10,
+   "released_success_unjudgeable": 0,
+   "corrected_satisfiable_any_record": 101,
+   "constraints": [
+    {
+     "params": {
+      "type": "track",
+      "where": {
+       "field": "name",
+       "value": "overlay_track"
+      }
+     },
+     "released_holds_initial": true,
+     "corrected_holds_initial": false,
+     "corrected_holds_initial_lenient": false,
+     "failing_records_strict": 0
+    }
+   ]
+  },
+  "NLB-v3-EX-CO-009": {
+   "yaml_id": "NLEB-EX-CO-009",
+   "path": "nlebench/dataset/scenarios_v3_1/feasible/explicit/compound/dev/NLEB-EX-CO-009.yaml",
+   "scale": "L2",
+   "cell": "explicit/compound",
+   "instruction": "Create a bin named 'B-roll' and import a media file 'sunset.mp4' into it.",
+   "n_where_constraints": 2,
+   "scored_records": 147,
+   "released_success": 137,
+   "corrected_success": 41,
+   "corrected_success_lenient": 41,
+   "newly_failing": 96,
+   "records_without_final_state": 10,
+   "released_success_unjudgeable": 0,
+   "corrected_satisfiable_any_record": 41,
+   "constraints": [
+    {
+     "params": {
+      "type": "bin",
+      "where": {
+       "field": "name",
+       "value": "B-roll"
+      }
+     },
+     "released_holds_initial": true,
+     "corrected_holds_initial": false,
+     "corrected_holds_initial_lenient": false,
+     "failing_records_strict": 49
+    },
+    {
+     "params": {
+      "type": "media",
+      "where": {
+       "field": "name",
+       "value": "sunset.mp4"
+      }
+     },
+     "released_holds_initial": true,
+     "corrected_holds_initial": false,
+     "corrected_holds_initial_lenient": false,
+     "failing_records_strict": 93
+    }
+   ]
+  },
+  "NLB-v3-EX-CO-012": {
+   "yaml_id": "NLEB-EX-CO-012",
+   "path": "nlebench/dataset/scenarios_v3_1/feasible/explicit/compound/test/NLEB-EX-CO-012.yaml",
+   "scale": "L1",
+   "cell": "explicit/compound",
+   "instruction": "Remove caption_1 and add a new caption with text 'Scene 2' at position 5.0s.",
+   "n_where_constraints": 1,
+   "scored_records": 147,
+   "released_success": 89,
+   "corrected_success": 55,
+   "corrected_success_lenient": 55,
+   "newly_failing": 34,
+   "records_without_final_state": 16,
+   "released_success_unjudgeable": 0,
+   "corrected_satisfiable_any_record": 59,
+   "constraints": [
+    {
+     "params": {
+      "type": "caption",
+      "where": {
+       "field": "text",
+       "value": "Scene 2"
+      }
+     },
+     "released_holds_initial": true,
+     "corrected_holds_initial": false,
+     "corrected_holds_initial_lenient": false,
+     "failing_records_strict": 34
+    }
+   ]
+  },
+  "NLB-v3-EX-CO-017": {
+   "yaml_id": "NLEB-EX-CO-017",
+   "path": "nlebench/dataset/scenarios_v3_1/feasible/explicit/compound/test/NLEB-EX-CO-017.yaml",
+   "scale": "L1",
+   "cell": "explicit/compound",
+   "instruction": "Create a new sequence called 'cutaway' and import a media file 'drone_shot.mov'.",
+   "n_where_constraints": 2,
+   "scored_records": 147,
+   "released_success": 131,
+   "corrected_success": 85,
+   "corrected_success_lenient": 85,
+   "newly_failing": 46,
+   "records_without_final_state": 16,
+   "released_success_unjudgeable": 0,
+   "corrected_satisfiable_any_record": 85,
+   "constraints": [
+    {
+     "params": {
+      "type": "sequence",
+      "where": {
+       "field": "name",
+       "value": "cutaway"
+      }
+     },
+     "released_holds_initial": true,
+     "corrected_holds_initial": false,
+     "corrected_holds_initial_lenient": false,
+     "failing_records_strict": 34
+    },
+    {
+     "params": {
+      "type": "media",
+      "where": {
+       "field": "name",
+       "value": "drone_shot.mov"
+      }
+     },
+     "released_holds_initial": true,
+     "corrected_holds_initial": false,
+     "corrected_holds_initial_lenient": false,
+     "failing_records_strict": 34
+    }
+   ]
+  },
+  "NLB-v3-EX-CO-022": {
+   "yaml_id": "NLEB-EX-CO-022",
+   "path": "nlebench/dataset/scenarios_v3_1/feasible/explicit/compound/test/NLEB-EX-CO-022.yaml",
+   "scale": "L1",
+   "cell": "explicit/compound",
+   "instruction": "audio_media_1: remove it. Import 'new_footage.mp4' as replacement.",
+   "n_where_constraints": 1,
+   "scored_records": 147,
+   "released_success": 15,
+   "corrected_success": 15,
+   "corrected_success_lenient": 15,
+   "newly_failing": 0,
+   "records_without_final_state": 12,
+   "released_success_unjudgeable": 0,
+   "corrected_satisfiable_any_record": 72,
+   "constraints": [
+    {
+     "params": {
+      "type": "media",
+      "where": {
+       "field": "name",
+       "value": "new_footage.mp4"
+      }
+     },
+     "released_holds_initial": true,
+     "corrected_holds_initial": false,
+     "corrected_holds_initial_lenient": false,
+     "failing_records_strict": 0
+    }
+   ]
+  },
+  "NLB-v3-EX-CO-023": {
+   "yaml_id": "NLEB-EX-CO-023",
+   "path": "nlebench/dataset/scenarios_v3_1/feasible/explicit/compound/test/NLEB-EX-CO-023.yaml",
+   "scale": "L2",
+   "cell": "explicit/compound",
+   "instruction": "Add a new audio track called 'sfx_track', add a clip from av_media_2 at 1.0s with duration 2.0s on it, and add a fade-in effect to that new clip.",
+   "n_where_constraints": 1,
+   "scored_records": 147,
+   "released_success": 0,
+   "corrected_success": 0,
+   "corrected_success_lenient": 0,
+   "newly_failing": 0,
+   "records_without_final_state": 10,
+   "released_success_unjudgeable": 0,
+   "corrected_satisfiable_any_record": 98,
+   "constraints": [
+    {
+     "params": {
+      "type": "track",
+      "where": {
+       "field": "name",
+       "value": "sfx_track"
+      }
+     },
+     "released_holds_initial": true,
+     "corrected_holds_initial": false,
+     "corrected_holds_initial_lenient": false,
+     "failing_records_strict": 0
+    }
+   ]
+  },
+  "NLB-v3-EX-CO-028": {
+   "yaml_id": "NLEB-EX-CO-028",
+   "path": "nlebench/dataset/scenarios_v3_1/feasible/explicit/compound/test/NLEB-EX-CO-028.yaml",
+   "scale": "L2",
+   "cell": "explicit/compound",
+   "instruction": "Add a caption 'Title Card' at 0.0s, set video_clip_1 opacity to 0.8, and set video_clip_3 scale to 0.9.",
+   "n_where_constraints": 1,
+   "scored_records": 147,
+   "released_success": 84,
+   "corrected_success": 0,
+   "corrected_success_lenient": 0,
+   "newly_failing": 84,
+   "records_without_final_state": 16,
+   "released_success_unjudgeable": 0,
+   "corrected_satisfiable_any_record": 0,
+   "constraints": [
+    {
+     "params": {
+      "type": "caption",
+      "where": {
+       "field": "text",
+       "value": "Title Card"
+      }
+     },
+     "released_holds_initial": true,
+     "corrected_holds_initial": false,
+     "corrected_holds_initial_lenient": false,
+     "failing_records_strict": 84
+    }
+   ]
+  },
+  "NLB-v3-EX-CO-029": {
+   "yaml_id": "NLEB-EX-CO-029",
+   "path": "nlebench/dataset/scenarios_v3_1/feasible/explicit/compound/test/NLEB-EX-CO-029.yaml",
+   "scale": "L2",
+   "cell": "explicit/compound",
+   "instruction": "Import 'overlay.png' as new media, add a clip from it at 1.0s with duration 2.0s on video_track_1, and add a fade-out effect to the new clip.",
+   "n_where_constraints": 1,
+   "scored_records": 147,
+   "released_success": 0,
+   "corrected_success": 0,
+   "corrected_success_lenient": 0,
+   "newly_failing": 0,
+   "records_without_final_state": 9,
+   "released_success_unjudgeable": 0,
+   "corrected_satisfiable_any_record": 0,
+   "constraints": [
+    {
+     "params": {
+      "type": "media",
+      "where": {
+       "field": "name",
+       "value": "overlay.png"
+      }
+     },
+     "released_holds_initial": true,
+     "corrected_holds_initial": false,
+     "corrected_holds_initial_lenient": false,
+     "failing_records_strict": 0
+    }
+   ]
+  },
+  "NLB-v3-EX-CO-030": {
+   "yaml_id": "NLEB-EX-CO-030",
+   "path": "nlebench/dataset/scenarios_v3_1/feasible/explicit/compound/test/NLEB-EX-CO-030.yaml",
+   "scale": "L2",
+   "cell": "explicit/compound",
+   "instruction": "Remove audio_track_2, create a new audio track called 'voiceover', and add a clip from av_media_1 at 0.0s with duration 10.0s on it.",
+   "n_where_constraints": 1,
+   "scored_records": 147,
+   "released_success": 88,
+   "corrected_success": 76,
+   "corrected_success_lenient": 76,
+   "newly_failing": 12,
+   "records_without_final_state": 16,
+   "released_success_unjudgeable": 0,
+   "corrected_satisfiable_any_record": 85,
+   "constraints": [
+    {
+     "params": {
+      "type": "track",
+      "where": {
+       "field": "name",
+       "value": "voiceover"
+      }
+     },
+     "released_holds_initial": true,
+     "corrected_holds_initial": false,
+     "corrected_holds_initial_lenient": false,
+     "failing_records_strict": 12
+    }
+   ]
+  },
+  "NLB-v3-EX-CO-031": {
+   "yaml_id": "NLEB-EX-CO-031",
+   "path": "nlebench/dataset/scenarios_v3_1/feasible/explicit/compound/test/NLEB-EX-CO-031.yaml",
+   "scale": "L2",
+   "cell": "explicit/compound",
+   "instruction": "Bin 'Footage': create it. av_media_1: rename to 'main_shot'. Import 'extra.mov'.",
+   "n_where_constraints": 2,
+   "scored_records": 147,
+   "released_success": 95,
+   "corrected_success": 70,
+   "corrected_success_lenient": 70,
+   "newly_failing": 25,
+   "records_without_final_state": 9,
+   "released_success_unjudgeable": 0,
+   "corrected_satisfiable_any_record": 70,
+   "constraints": [
+    {
+     "params": {
+      "type": "bin",
+      "where": {
+       "field": "name",
+       "value": "Footage"
+      }
+     },
+     "released_holds_initial": true,
+     "corrected_holds_initial": false,
+     "corrected_holds_initial_lenient": false,
+     "failing_records_strict": 5
+    },
+    {
+     "params": {
+      "type": "media",
+      "where": {
+       "field": "name",
+       "value": "extra.mov"
+      }
+     },
+     "released_holds_initial": true,
+     "corrected_holds_initial": false,
+     "corrected_holds_initial_lenient": false,
+     "failing_records_strict": 25
+    }
+   ]
+  },
+  "NLB-v3-EX-CO-036": {
+   "yaml_id": "NLEB-EX-CO-036",
+   "path": "nlebench/dataset/scenarios_v3_1/feasible/explicit/compound/test/NLEB-EX-CO-036.yaml",
+   "scale": "L3",
+   "cell": "explicit/compound",
+   "instruction": "Import 'title_bg.mp4' as media. Create a new video track called 'title_track'. Add a clip from the imported media at 0.0s with duration 5.0s. Add a caption 'Welcome' at 0.5s. Add a fade-in effect to the new clip.",
+   "n_where_constraints": 3,
+   "scored_records": 147,
+   "released_success": 0,
+   "corrected_success": 0,
+   "corrected_success_lenient": 0,
+   "newly_failing": 0,
+   "records_without_final_state": 10,
+   "released_success_unjudgeable": 0,
+   "corrected_satisfiable_any_record": 0,
+   "constraints": [
+    {
+     "params": {
+      "type": "media",
+      "where": {
+       "field": "name",
+       "value": "title_bg.mp4"
+      }
+     },
+     "released_holds_initial": true,
+     "corrected_holds_initial": false,
+     "corrected_holds_initial_lenient": false,
+     "failing_records_strict": 0
+    },
+    {
+     "params": {
+      "type": "track",
+      "where": {
+       "field": "name",
+       "value": "title_track"
+      }
+     },
+     "released_holds_initial": true,
+     "corrected_holds_initial": false,
+     "corrected_holds_initial_lenient": false,
+     "failing_records_strict": 0
+    },
+    {
+     "params": {
+      "type": "caption",
+      "where": {
+       "field": "text",
+       "value": "Welcome"
+      }
+     },
+     "released_holds_initial": true,
+     "corrected_holds_initial": false,
+     "corrected_holds_initial_lenient": false,
+     "failing_records_strict": 0
+    }
+   ]
+  },
+  "NLB-v3-EX-CO-038": {
+   "yaml_id": "NLEB-EX-CO-038",
+   "path": "nlebench/dataset/scenarios_v3_1/feasible/explicit/compound/test/NLEB-EX-CO-038.yaml",
+   "scale": "L3",
+   "cell": "explicit/compound",
+   "instruction": "Create a bin called 'Assets', import 'interview.mp4', add a clip from it at 5.0s with duration 8.0s on video_track_1, add a brightness effect to the clip, set the clip's scale to 0.9, and add a caption 'Interview' at 5.0s.",
+   "n_where_constraints": 3,
+   "scored_records": 147,
+   "released_success": 0,
+   "corrected_success": 0,
+   "corrected_success_lenient": 0,
+   "newly_failing": 0,
+   "records_without_final_state": 9,
+   "released_success_unjudgeable": 0,
+   "corrected_satisfiable_any_record": 25,
+   "constraints": [
+    {
+     "params": {
+      "type": "bin",
+      "where": {
+       "field": "name",
+       "value": "Assets"
+      }
+     },
+     "released_holds_initial": true,
+     "corrected_holds_initial": false,
+     "corrected_holds_initial_lenient": false,
+     "failing_records_strict": 0
+    },
+    {
+     "params": {
+      "type": "media",
+      "where": {
+       "field": "name",
+       "value": "interview.mp4"
+      }
+     },
+     "released_holds_initial": true,
+     "corrected_holds_initial": false,
+     "corrected_holds_initial_lenient": false,
+     "failing_records_strict": 0
+    },
+    {
+     "params": {
+      "type": "caption",
+      "where": {
+       "field": "text",
+       "value": "Interview"
+      }
+     },
+     "released_holds_initial": true,
+     "corrected_holds_initial": false,
+     "corrected_holds_initial_lenient": false,
+     "failing_records_strict": 0
+    }
+   ]
+  },
+  "NLB-v3-EX-CO-040": {
+   "yaml_id": "NLEB-EX-CO-040",
+   "path": "nlebench/dataset/scenarios_v3_1/feasible/explicit/compound/test/NLEB-EX-CO-040.yaml",
+   "scale": "L3",
+   "cell": "explicit/compound",
+   "instruction": "Create a video track 'composite', add a clip from bin_media at 0.0s for 3.0s, and add another clip from bin_media at 3.0s for 4.0s on it. / Link the first new clip with ac_1, add a cross-dissolve transition between the two new clips with duration 0.5s, and add a blur effect to the second new clip.",
+   "n_where_constraints": 1,
+   "scored_records": 147,
+   "released_success": 0,
+   "corrected_success": 0,
+   "corrected_success_lenient": 0,
+   "newly_failing": 0,
+   "records_without_final_state": 16,
+   "released_success_unjudgeable": 0,
+   "corrected_satisfiable_any_record": 69,
+   "constraints": [
+    {
+     "params": {
+      "type": "track",
+      "where": {
+       "field": "name",
+       "value": "composite"
+      }
+     },
+     "released_holds_initial": true,
+     "corrected_holds_initial": false,
+     "corrected_holds_initial_lenient": false,
+     "failing_records_strict": 0
+    }
+   ]
+  },
+  "NLB-v3-EX-CU-013": {
+   "yaml_id": "NLEB-EX-CU-013",
+   "path": "nlebench/dataset/scenarios_v3_1/feasible/explicit/cumulative/test/NLEB-EX-CU-013.yaml",
+   "scale": "L1",
+   "cell": "explicit/cumulative",
+   "instruction": "Import 'ambient.wav' as new media. / Create a 'Music' bin and move the imported media into it. Keep the media.",
+   "n_where_constraints": 1,
+   "scored_records": 147,
+   "released_success": 89,
+   "corrected_success": 50,
+   "corrected_success_lenient": 50,
+   "newly_failing": 39,
+   "records_without_final_state": 10,
+   "released_success_unjudgeable": 0,
+   "corrected_satisfiable_any_record": 51,
+   "constraints": [
+    {
+     "params": {
+      "type": "bin",
+      "where": {
+       "field": "name",
+       "value": "Music"
+      }
+     },
+     "released_holds_initial": true,
+     "corrected_holds_initial": false,
+     "corrected_holds_initial_lenient": false,
+     "failing_records_strict": 39
+    }
+   ]
+  }
+ },
+ "per_model": {
+  "Qwen/QwQ-32B": {
+   "feasible_records": 1920,
+   "released_succ": 1003,
+   "released_sr_pct": 52.2396,
+   "class_applicable": 16,
+   "class_failing": 6,
+   "corrected_sr_pct": 51.9271,
+   "delta_pp": -0.3125,
+   "delta_pp_lenient": -0.3125
+  },
+  "claude-sonnet-4-6": {
+   "feasible_records": 640,
+   "released_succ": 328,
+   "released_sr_pct": 51.25,
+   "class_applicable": 7,
+   "class_failing": 3,
+   "corrected_sr_pct": 50.7812,
+   "delta_pp": -0.4688,
+   "delta_pp_lenient": -0.4688
+  },
+  "Qwen/Qwen3-32B": {
+   "feasible_records": 1920,
+   "released_succ": 933,
+   "released_sr_pct": 48.5938,
+   "class_applicable": 24,
+   "class_failing": 4,
+   "corrected_sr_pct": 48.3854,
+   "delta_pp": -0.2083,
+   "delta_pp_lenient": -0.2083
+  },
+  "gemini-3-flash-preview": {
+   "feasible_records": 640,
+   "released_succ": 347,
+   "released_sr_pct": 54.2188,
+   "class_applicable": 8,
+   "class_failing": 1,
+   "corrected_sr_pct": 54.0625,
+   "delta_pp": -0.1562,
+   "delta_pp_lenient": -0.1562
+  },
+  "Qwen/Qwen3-8B": {
+   "feasible_records": 1920,
+   "released_succ": 896,
+   "released_sr_pct": 46.6667,
+   "class_applicable": 26,
+   "class_failing": 10,
+   "corrected_sr_pct": 46.1458,
+   "delta_pp": -0.5208,
+   "delta_pp_lenient": -0.5208
+  },
+  "Qwen/Qwen3-4B": {
+   "feasible_records": 1920,
+   "released_succ": 940,
+   "released_sr_pct": 48.9583,
+   "class_applicable": 18,
+   "class_failing": 3,
+   "corrected_sr_pct": 48.8021,
+   "delta_pp": -0.1562,
+   "delta_pp_lenient": -0.1562
+  },
+  "Qwen/Qwen3.5-27B": {
+   "feasible_records": 1920,
+   "released_succ": 859,
+   "released_sr_pct": 44.7396,
+   "class_applicable": 27,
+   "class_failing": 8,
+   "corrected_sr_pct": 44.3229,
+   "delta_pp": -0.4167,
+   "delta_pp_lenient": -0.4167
+  },
+  "Qwen/Qwen3.5-9B": {
+   "feasible_records": 1920,
+   "released_succ": 909,
+   "released_sr_pct": 47.3438,
+   "class_applicable": 24,
+   "class_failing": 7,
+   "corrected_sr_pct": 46.9792,
+   "delta_pp": -0.3646,
+   "delta_pp_lenient": -0.3646
+  },
+  "Qwen/Qwen2.5-32B-Instruct": {
+   "feasible_records": 1920,
+   "released_succ": 874,
+   "released_sr_pct": 45.5208,
+   "class_applicable": 24,
+   "class_failing": 9,
+   "corrected_sr_pct": 45.0521,
+   "delta_pp": -0.4688,
+   "delta_pp_lenient": -0.4688
+  },
+  "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B": {
+   "feasible_records": 1920,
+   "released_succ": 827,
+   "released_sr_pct": 43.0729,
+   "class_applicable": 17,
+   "class_failing": 15,
+   "corrected_sr_pct": 42.2917,
+   "delta_pp": -0.7812,
+   "delta_pp_lenient": -0.7812
+  },
+  "claude-haiku-4-5": {
+   "feasible_records": 640,
+   "released_succ": 273,
+   "released_sr_pct": 42.6562,
+   "class_applicable": 5,
+   "class_failing": 1,
+   "corrected_sr_pct": 42.5,
+   "delta_pp": -0.1562,
+   "delta_pp_lenient": -0.1562
+  },
+  "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B": {
+   "feasible_records": 1920,
+   "released_succ": 831,
+   "released_sr_pct": 43.2812,
+   "class_applicable": 19,
+   "class_failing": 8,
+   "corrected_sr_pct": 42.8646,
+   "delta_pp": -0.4167,
+   "delta_pp_lenient": -0.4167
+  },
+  "Qwen/Qwen3.5-35B-A3B": {
+   "feasible_records": 1920,
+   "released_succ": 779,
+   "released_sr_pct": 40.5729,
+   "class_applicable": 27,
+   "class_failing": 10,
+   "corrected_sr_pct": 40.0521,
+   "delta_pp": -0.5208,
+   "delta_pp_lenient": -0.5208
+  },
+  "microsoft/Phi-4": {
+   "feasible_records": 1920,
+   "released_succ": 832,
+   "released_sr_pct": 43.3333,
+   "class_applicable": 19,
+   "class_failing": 10,
+   "corrected_sr_pct": 42.8125,
+   "delta_pp": -0.5208,
+   "delta_pp_lenient": -0.5208
+  },
+  "Qwen/Qwen3.5-4B": {
+   "feasible_records": 1920,
+   "released_succ": 732,
+   "released_sr_pct": 38.125,
+   "class_applicable": 18,
+   "class_failing": 5,
+   "corrected_sr_pct": 37.8646,
+   "delta_pp": -0.2604,
+   "delta_pp_lenient": -0.2604
+  },
+  "Qwen/Qwen2.5-14B-Instruct": {
+   "feasible_records": 1920,
+   "released_succ": 762,
+   "released_sr_pct": 39.6875,
+   "class_applicable": 24,
+   "class_failing": 9,
+   "corrected_sr_pct": 39.2188,
+   "delta_pp": -0.4688,
+   "delta_pp_lenient": -0.4688
+  },
+  "gpt-5.4-mini": {
+   "feasible_records": 640,
+   "released_succ": 260,
+   "released_sr_pct": 40.625,
+   "class_applicable": 5,
+   "class_failing": 2,
+   "corrected_sr_pct": 40.3125,
+   "delta_pp": -0.3125,
+   "delta_pp_lenient": -0.3125
+  },
+  "google/gemma-4-31B-it": {
+   "feasible_records": 1920,
+   "released_succ": 711,
+   "released_sr_pct": 37.0312,
+   "class_applicable": 21,
+   "class_failing": 3,
+   "corrected_sr_pct": 36.875,
+   "delta_pp": -0.1562,
+   "delta_pp_lenient": -0.1562
+  },
+  "gpt-5.4": {
+   "feasible_records": 640,
+   "released_succ": 259,
+   "released_sr_pct": 40.4688,
+   "class_applicable": 6,
+   "class_failing": 5,
+   "corrected_sr_pct": 39.6875,
+   "delta_pp": -0.7812,
+   "delta_pp_lenient": -0.7812
+  },
+  "gemini-2.5-flash": {
+   "feasible_records": 640,
+   "released_succ": 208,
+   "released_sr_pct": 32.5,
+   "class_applicable": 6,
+   "class_failing": 6,
+   "corrected_sr_pct": 31.5625,
+   "delta_pp": -0.9375,
+   "delta_pp_lenient": -0.9375
+  },
+  "mistralai/Mistral-Nemo-Instruct-2407": {
+   "feasible_records": 1920,
+   "released_succ": 768,
+   "released_sr_pct": 40.0,
+   "class_applicable": 24,
+   "class_failing": 12,
+   "corrected_sr_pct": 39.375,
+   "delta_pp": -0.625,
+   "delta_pp_lenient": -0.625
+  },
+  "Qwen/Qwen3.5-2B": {
+   "feasible_records": 1920,
+   "released_succ": 560,
+   "released_sr_pct": 29.1667,
+   "class_applicable": 20,
+   "class_failing": 11,
+   "corrected_sr_pct": 28.5938,
+   "delta_pp": -0.5729,
+   "delta_pp_lenient": -0.5729
+  },
+  "Qwen/Qwen2.5-7B-Instruct": {
+   "feasible_records": 1920,
+   "released_succ": 637,
+   "released_sr_pct": 33.1771,
+   "class_applicable": 21,
+   "class_failing": 3,
+   "corrected_sr_pct": 33.0208,
+   "delta_pp": -0.1562,
+   "delta_pp_lenient": -0.1562
+  },
+  "zai-org/GLM-4-32B-0414": {
+   "feasible_records": 1920,
+   "released_succ": 537,
+   "released_sr_pct": 27.9688,
+   "class_applicable": 24,
+   "class_failing": 11,
+   "corrected_sr_pct": 27.3958,
+   "delta_pp": -0.5729,
+   "delta_pp_lenient": -0.5729
+  },
+  "tiiuae/Falcon3-10B-Instruct": {
+   "feasible_records": 1920,
+   "released_succ": 693,
+   "released_sr_pct": 36.0938,
+   "class_applicable": 21,
+   "class_failing": 9,
+   "corrected_sr_pct": 35.625,
+   "delta_pp": -0.4688,
+   "delta_pp_lenient": -0.4688
+  },
+  "Qwen/Qwen3-1.7B": {
+   "feasible_records": 1920,
+   "released_succ": 428,
+   "released_sr_pct": 22.2917,
+   "class_applicable": 12,
+   "class_failing": 10,
+   "corrected_sr_pct": 21.7708,
+   "delta_pp": -0.5208,
+   "delta_pp_lenient": -0.5208
+  },
+  "o4-mini": {
+   "feasible_records": 640,
+   "released_succ": 146,
+   "released_sr_pct": 22.8125,
+   "class_applicable": 5,
+   "class_failing": 5,
+   "corrected_sr_pct": 22.0312,
+   "delta_pp": -0.7812,
+   "delta_pp_lenient": -0.7812
+  },
+  "allenai/Olmo-3-7B-Instruct": {
+   "feasible_records": 1920,
+   "released_succ": 235,
+   "released_sr_pct": 12.2396,
+   "class_applicable": 9,
+   "class_failing": 9,
+   "corrected_sr_pct": 11.7708,
+   "delta_pp": -0.4688,
+   "delta_pp_lenient": -0.4688
+  },
+  "openai/gpt-oss-120b": {
+   "feasible_records": 1920,
+   "released_succ": 431,
+   "released_sr_pct": 22.4479,
+   "class_applicable": 12,
+   "class_failing": 12,
+   "corrected_sr_pct": 21.8229,
+   "delta_pp": -0.625,
+   "delta_pp_lenient": -0.625
+  },
+  "tiiuae/Falcon3-7B-Instruct": {
+   "feasible_records": 1920,
+   "released_succ": 590,
+   "released_sr_pct": 30.7292,
+   "class_applicable": 18,
+   "class_failing": 9,
+   "corrected_sr_pct": 30.2604,
+   "delta_pp": -0.4688,
+   "delta_pp_lenient": -0.4688
+  },
+  "google/gemma-4-E2B-it": {
+   "feasible_records": 1920,
+   "released_succ": 373,
+   "released_sr_pct": 19.4271,
+   "class_applicable": 6,
+   "class_failing": 6,
+   "corrected_sr_pct": 19.1146,
+   "delta_pp": -0.3125,
+   "delta_pp_lenient": -0.3125
+  },
+  "o3-mini": {
+   "feasible_records": 640,
+   "released_succ": 147,
+   "released_sr_pct": 22.9688,
+   "class_applicable": 5,
+   "class_failing": 5,
+   "corrected_sr_pct": 22.1875,
+   "delta_pp": -0.7812,
+   "delta_pp_lenient": -0.7812
+  },
+  "microsoft/Phi-4-mini-instruct": {
+   "feasible_records": 1920,
+   "released_succ": 396,
+   "released_sr_pct": 20.625,
+   "class_applicable": 24,
+   "class_failing": 12,
+   "corrected_sr_pct": 20.0,
+   "delta_pp": -0.625,
+   "delta_pp_lenient": -0.625
+  },
+  "openai/gpt-oss-20b": {
+   "feasible_records": 1920,
+   "released_succ": 406,
+   "released_sr_pct": 21.1458,
+   "class_applicable": 12,
+   "class_failing": 12,
+   "corrected_sr_pct": 20.5208,
+   "delta_pp": -0.625,
+   "delta_pp_lenient": -0.625
+  },
+  "google/gemma-4-E4B-it": {
+   "feasible_records": 1920,
+   "released_succ": 325,
+   "released_sr_pct": 16.9271,
+   "class_applicable": 18,
+   "class_failing": 3,
+   "corrected_sr_pct": 16.7708,
+   "delta_pp": -0.1562,
+   "delta_pp_lenient": -0.1562
+  },
+  "internlm/internlm3-8b-instruct": {
+   "feasible_records": 1920,
+   "released_succ": 438,
+   "released_sr_pct": 22.8125,
+   "class_applicable": 16,
+   "class_failing": 13,
+   "corrected_sr_pct": 22.1354,
+   "delta_pp": -0.6771,
+   "delta_pp_lenient": -0.6771
+  },
+  "openbmb/MiniCPM4-8B": {
+   "feasible_records": 1920,
+   "released_succ": 438,
+   "released_sr_pct": 22.8125,
+   "class_applicable": 24,
+   "class_failing": 15,
+   "corrected_sr_pct": 22.0312,
+   "delta_pp": -0.7812,
+   "delta_pp_lenient": -0.7812
+  },
+  "meta-llama/Llama-3.1-8B-Instruct": {
+   "feasible_records": 1920,
+   "released_succ": 459,
+   "released_sr_pct": 23.9062,
+   "class_applicable": 18,
+   "class_failing": 6,
+   "corrected_sr_pct": 23.5938,
+   "delta_pp": -0.3125,
+   "delta_pp_lenient": -0.3125
+  },
+  "google/gemma-4-26B-A4B-it": {
+   "feasible_records": 1920,
+   "released_succ": 345,
+   "released_sr_pct": 17.9688,
+   "class_applicable": 21,
+   "class_failing": 6,
+   "corrected_sr_pct": 17.6562,
+   "delta_pp": -0.3125,
+   "delta_pp_lenient": -0.3125
+  },
+  "Qwen/Qwen3-0.6B": {
+   "feasible_records": 1920,
+   "released_succ": 125,
+   "released_sr_pct": 6.5104,
+   "class_applicable": 11,
+   "class_failing": 11,
+   "corrected_sr_pct": 5.9375,
+   "delta_pp": -0.5729,
+   "delta_pp_lenient": -0.5729
+  },
+  "google/gemma-2-27b-it": {
+   "feasible_records": 1920,
+   "released_succ": 398,
+   "released_sr_pct": 20.7292,
+   "class_applicable": 12,
+   "class_failing": 6,
+   "corrected_sr_pct": 20.4167,
+   "delta_pp": -0.3125,
+   "delta_pp_lenient": -0.3125
+  },
+  "meta-llama/Llama-3.2-3B-Instruct": {
+   "feasible_records": 1920,
+   "released_succ": 448,
+   "released_sr_pct": 23.3333,
+   "class_applicable": 18,
+   "class_failing": 6,
+   "corrected_sr_pct": 23.0208,
+   "delta_pp": -0.3125,
+   "delta_pp_lenient": -0.3125
+  },
+  "Qwen/Qwen3.5-0.8B": {
+   "feasible_records": 1920,
+   "released_succ": 226,
+   "released_sr_pct": 11.7708,
+   "class_applicable": 13,
+   "class_failing": 12,
+   "corrected_sr_pct": 11.1458,
+   "delta_pp": -0.625,
+   "delta_pp_lenient": -0.625
+  },
+  "tiiuae/Falcon3-3B-Instruct": {
+   "feasible_records": 1920,
+   "released_succ": 391,
+   "released_sr_pct": 20.3646,
+   "class_applicable": 21,
+   "class_failing": 15,
+   "corrected_sr_pct": 19.5833,
+   "delta_pp": -0.7812,
+   "delta_pp_lenient": -0.7812
+  },
+  "google/gemma-2-9b-it": {
+   "feasible_records": 1920,
+   "released_succ": 318,
+   "released_sr_pct": 16.5625,
+   "class_applicable": 9,
+   "class_failing": 3,
+   "corrected_sr_pct": 16.4062,
+   "delta_pp": -0.1562,
+   "delta_pp_lenient": -0.1562
+  },
+  "claude-haiku-4-5-20251001": {
+   "feasible_records": 640,
+   "released_succ": 97,
+   "released_sr_pct": 15.1562,
+   "class_applicable": 2,
+   "class_failing": 1,
+   "corrected_sr_pct": 15.0,
+   "delta_pp": -0.1562,
+   "delta_pp_lenient": -0.1562
+  },
+  "deepseek-ai/DeepSeek-R1-Distill-Llama-8B": {
+   "feasible_records": 1920,
+   "released_succ": 12,
+   "released_sr_pct": 0.625,
+   "class_applicable": 6,
+   "class_failing": 6,
+   "corrected_sr_pct": 0.3125,
+   "delta_pp": -0.3125,
+   "delta_pp_lenient": -0.3125
+  },
+  "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B": {
+   "feasible_records": 1920,
+   "released_succ": 111,
+   "released_sr_pct": 5.7812,
+   "class_applicable": 13,
+   "class_failing": 13,
+   "corrected_sr_pct": 5.1042,
+   "delta_pp": -0.6771,
+   "delta_pp_lenient": -0.6771
+  },
+  "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B": {
+   "feasible_records": 1920,
+   "released_succ": 22,
+   "released_sr_pct": 1.1458,
+   "class_applicable": 6,
+   "class_failing": 6,
+   "corrected_sr_pct": 0.8333,
+   "delta_pp": -0.3125,
+   "delta_pp_lenient": -0.3125
+  },
+  "mistralai/Mistral-Small-3.2-24B-Instruct-2506": {
+   "feasible_records": 1920,
+   "released_succ": 55,
+   "released_sr_pct": 2.8646,
+   "class_applicable": 12,
+   "class_failing": 9,
+   "corrected_sr_pct": 2.3958,
+   "delta_pp": -0.4688,
+   "delta_pp_lenient": -0.4688
+  },
+  "mistralai/Mistral-Small-24B-Instruct-2501": {
+   "feasible_records": 1920,
+   "released_succ": 12,
+   "released_sr_pct": 0.625,
+   "class_applicable": 6,
+   "class_failing": 6,
+   "corrected_sr_pct": 0.3125,
+   "delta_pp": -0.3125,
+   "delta_pp_lenient": -0.3125
+  },
+  "meta-llama/Llama-3.2-1B-Instruct": {
+   "feasible_records": 1920,
+   "released_succ": 40,
+   "released_sr_pct": 2.0833,
+   "class_applicable": 9,
+   "class_failing": 9,
+   "corrected_sr_pct": 1.6146,
+   "delta_pp": -0.4688,
+   "delta_pp_lenient": -0.4688
+  },
+  "tiiuae/Falcon3-1B-Instruct": {
+   "feasible_records": 1920,
+   "released_succ": 0,
+   "released_sr_pct": 0.0,
+   "class_applicable": 0,
+   "class_failing": 0,
+   "corrected_sr_pct": 0.0,
+   "delta_pp": 0.0,
+   "delta_pp_lenient": 0.0
+  },
+  "01-ai/Yi-1.5-34B-Chat": {
+   "feasible_records": 1920,
+   "released_succ": 0,
+   "released_sr_pct": 0.0,
+   "class_applicable": 0,
+   "class_failing": 0,
+   "corrected_sr_pct": 0.0,
+   "delta_pp": 0.0,
+   "delta_pp_lenient": 0.0
+  },
+  "allenai/OLMo-2-1124-13B-Instruct": {
+   "feasible_records": 1920,
+   "released_succ": 0,
+   "released_sr_pct": 0.0,
+   "class_applicable": 0,
+   "class_failing": 0,
+   "corrected_sr_pct": 0.0,
+   "delta_pp": 0.0,
+   "delta_pp_lenient": 0.0
+  }
+ },
+ "anomalies": {},
+ "caveats": [
+  {
+   "id": "CO-028-unsatisfiable-as-written",
+   "scenario": "NLB-v3-EX-CO-028",
+   "contributes_to_397": 84,
+   "detail": "instruction 은 complex_sequence 에 \"Add a caption 'Title Card' at 0.0s\" 를 요구하지만 이 fixture 의 caption_1 이 0.5~3.0s 를 점유하고 있고 add_caption 은 caption 간 겹침을 거부한다. 따라서 0.0s 캡션은 길이 0.5s 이하일 때만 생성 가능하며, 147개 기록 중 이를 만족한 사례는 0건이다. 즉 이 시나리오의 84건은 모델 실패가 아니라 시나리오 자체 결함에 가깝다. 397건의 21%를 차지하므로 AC 에 함께 고지해야 한다."
+  },
+  {
+   "id": "media-entity-list-excludes-image",
+   "scenario": "NLB-v3-EX-CO-029",
+   "contributes_to_397": 0,
+   "detail": "constraints._get_entity_list('media') 는 av_medias+video_medias+audio_medias 인데 셋 다 type in ('video','audio') 로 필터된다. import_media('overlay.png') 는 type='image' 를 만들므로 이 목록에 절대 들어가지 않는다. 따라서 entity_exists{type: media, where:{name: overlay.png}} 는 교정해도 만족 불가능하다. CO-029 는 released 성공이 0건이라 397/-0.47pp 에는 영향이 없지만 교정 술어의 한계로 명시해야 한다. 부수적으로 av_medias 와 video_medias 가 동일 조건이라 video media 는 'media' 목록에 중복 계상된다(존재 검사에는 무해)."
+  },
+  {
+   "id": "released-success-anticorrelated-with-doing-the-task",
+   "scenario": "NLB-v3-EX-CO-002",
+   "detail": "CO-002 에서 released 성공 61건 중 교정 술어를 만족한 건은 0건인 반면, 실제로 'Chapter 1' 캡션을 만든 33건은 전부 released 실패로 채점됐다 (unchanged_except 가 신규 캡션을 위반으로 잡는다). where 버그가 단독 결함이 아니라 unchanged_except 와 상호작용해 '과제를 수행하면 실패하는' 채점을 만들고 있다."
+  }
+ ]
+}

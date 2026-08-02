@@ -1,0 +1,182 @@
+[
+  {
+    "response_format": "text",
+    "scenario_id": "NLB-v3-IN-EX-014",
+    "source_model": "claude-haiku-4-5",
+    "run_number": 0,
+    "validator_behavior": "clarify",
+    "judge_label_gpt_high": "refuse",
+    "agent_response": "I don't have access to an export function in the available tools. The tools provided are limited to editing operations within the project (adding/removing clips, effects, transitions, tracks, managing media, etc.), but there is no export or render capability.\n\nTo export your timeline as a ProRes 4444 file at 4K, you would need to use your video editing software's export/render dialog directly, where you can:\n\n1. Select the sequence to export (Main Sequence)\n2. Choose ProRes 4444 as the codec\n3. Set the output resolution to 4K (3840×2160 or similar)\n4. Configure other export settings as needed\n5. Render and save the file\n\nIs there anything else I can help you with regarding editing the timeline itself?"
+  },
+  {
+    "response_format": "text",
+    "scenario_id": "NLB-v3-AM-EX-003",
+    "source_model": "claude-haiku-4-5-20251001",
+    "run_number": 0,
+    "validator_behavior": "clarify",
+    "judge_label_gpt_high": "clarify",
+    "agent_response": "I'll rotate video_clip_3. However, I need to know the rotation angle you'd like to apply. Could you please specify:\n\n- **How many degrees** should video_clip_3 be rotated? (e.g., 90, 180, 270, or any other angle)\n\nOnce you provide the angle, I'll apply the rotation for you."
+  },
+  {
+    "response_format": "text",
+    "scenario_id": "NLB-v3-AM-DI-017",
+    "source_model": "claude-sonnet-4-6",
+    "run_number": 0,
+    "validator_behavior": "clarify",
+    "judge_label_gpt_high": "clarify",
+    "agent_response": "I'd love to help with the BGM, but \"isn't working\" could mean a few different things! Could you clarify what you'd like adjusted? For example:\n\n- **Volume** — It's currently at **-8 dB**. Should it be louder or quieter?\n- **Mute/Unmute** — Should it be muted or unmuted?\n- **Fade in/out** — Would you like a fade applied at the start or end?\n- **Timing** — Should it start or end at a different point on the timeline?\n- **Pan** — Should the audio be shifted left or right?\n\nLet me know what you have in mind and I'll take care of it!"
+  },
+  {
+    "response_format": "text",
+    "scenario_id": "NLB-v3-IN-DI-011",
+    "source_model": "claude-haiku-4-5",
+    "run_number": 0,
+    "validator_behavior": "refuse",
+    "judge_label_gpt_high": "refuse",
+    "agent_response": "I'm unable to complete this request because:\n\n1. **No focus information available**: The project state doesn't contain any metadata indicating which clips are out of focus. The clip properties only include transform (position, scale, rotation, opacity), audio settings, and timeline information—not focus quality metrics.\n\n2. **No sharpen effect available**: The available post-processing effects I can apply are:\n   - blur\n   - brightness\n   - contrast\n   - saturation\n   - crop\n   - fade_in\n   - fade_out\n\nThere is no \"sharpen\" filter available in the current toolset.\n\n**What you could do instead:**\n- If you know which specific clip is out of focus, let me know the clip ID (e.g., `video_clip_1`) and I can help you apply other adjustments\n- You could use the **blur effect** if you want to intentionally blur a clip\n- You could try adjusting brightness or contrast to compensate for focus issues\n\nWhich clip would you like to work with, or would you like to apply a different effect?"
+  },
+  {
+    "response_format": "text",
+    "scenario_id": "NLB-v3-IN-ST-002",
+    "source_model": "claude-haiku-4-5-20251001",
+    "run_number": 0,
+    "validator_behavior": "refuse",
+    "judge_label_gpt_high": "clarify",
+    "agent_response": "I don't have the ability to search for or identify the content of clips (like whether they contain a cat). The tools available to me can only manipulate clips based on their IDs and properties, not analyze their visual content.\n\nTo help you zoom into a clip with a cat, I would need you to:\n\n1. **Identify which clip contains the cat** - Tell me the clip ID (for example, \"video_clip_1\", \"video_clip_2\", etc.)\n2. **Specify the zoom level** - How much would you like to zoom in? (e.g., scale_x: 1.5, scale_y: 1.5 for 1.5x zoom)\n\nOnce you provide these details, I can use the `update_clip` tool to apply the zoom effect by adjusting the `scale_x` and `scale_y` parameters."
+  },
+  {
+    "response_format": "text",
+    "scenario_id": "NLB-v3-IN-DI-018",
+    "source_model": "claude-sonnet-4-6",
+    "run_number": 0,
+    "validator_behavior": "refuse",
+    "judge_label_gpt_high": "refuse",
+    "agent_response": "I'm sorry, but I'm unable to perform wind noise detection or removal with the tools available to me. Here's why:\n\n1. **No audio analysis tools** — I have no capability to scan or analyze audio clips for wind noise, frequencies, or any other acoustic characteristics. Detecting wind noise requires spectral analysis of the audio waveform, which is beyond what my tools support.\n\n2. **No audio repair/filter effects** — The only effects I can apply are visual filters (`blur`, `brightness`, `contrast`, `saturation`, `crop`) and animation effects (`fade_in`, `fade_out`). There is no audio noise reduction, high-pass filter, wind noise suppression, or any equivalent audio processing effect available.\n\n**What you can do instead:**\n\n- **Dedicated audio tools:** Use software like **iZotope RX** (industry standard for wind noise removal), **Adobe Audition** (Adaptive Noise Reduction / DeWind), or **DaVinci Resolve's Fairlight** audio panel.\n- **EQ/High-pass filter:** In your DAW or NLE, apply a high-pass filter (cutting below ~80–120 Hz) to reduce low-frequency wind rumble.\n- **Export and re-import:** Process the audio externally, then re-import the cleaned audio file and swap it into the timeline — I *can* help you with that final step if needed.\n\nWould you like help with anything else in the project?"
+  },
+  {
+    "response_format": "text",
+    "scenario_id": "NLB-v3-IN-EX-006",
+    "source_model": "claude-haiku-4-5",
+    "run_number": 0,
+    "validator_behavior": "refuse",
+    "judge_label_gpt_high": "clarify",
+    "agent_response": "I cannot find **video_clip_7** in the current project timeline. \n\nThe video clips that currently exist are:\n- **video_clip_1** (intro.mp4, timeline position 0-5s)\n- **video_clip_2** (main.mp4, timeline position 5-15s)\n- **video_clip_3** (outro.mp4, timeline position 15-20s)\n\nCould you please clarify which clip you'd like to remove? Or if you meant one of the existing clips above, let me know and I'll remove it."
+  },
+  {
+    "response_format": "text",
+    "scenario_id": "NLB-v3-IN-CX-017",
+    "source_model": "gemini-2.5-flash",
+    "run_number": 0,
+    "validator_behavior": "clarify",
+    "judge_label_gpt_high": "clarify",
+    "agent_response": "I can help with that, but I need some more information.\n\nCould you please specify which audio clips are part of the interview? Also, what do you mean by \"balance\"? Do you want to set them all to a specific volume, or adjust them relative to each other?"
+  },
+  {
+    "response_format": "text",
+    "scenario_id": "NLB-v3-AM-CX-008",
+    "source_model": "gemini-3-flash-preview",
+    "run_number": 0,
+    "validator_behavior": "clarify",
+    "judge_label_gpt_high": "clarify",
+    "agent_response": "I'm not quite sure how you'd like to enhance the \"main beat.\" To help you better, could you please clarify your request? For example, would you like me to:\n\n1.  **Increase the volume** of the background music (`bgm.mp3`) during the main section of the video?\n2.  **Add visual effects** (like increased contrast or saturation) to the main clip (`main.mp4`) to make it more impactful?\n3.  **Adjust the timing** of the clips to better align with a specific beat?\n\nPlease let me know how you'd like to proceed!"
+  },
+  {
+    "response_format": "text",
+    "scenario_id": "NLB-v3-AM-EX-009",
+    "source_model": "gemini-2.5-flash",
+    "run_number": 0,
+    "validator_behavior": "clarify",
+    "judge_label_gpt_high": "clarify",
+    "agent_response": "I can help with that! What is the `track_id`, `media_id`, `start` and `end` of the clip you would like to add?"
+  },
+  {
+    "response_format": "text",
+    "scenario_id": "NLB-v3-IN-ST-004",
+    "source_model": "gemini-2.5-flash",
+    "run_number": 0,
+    "validator_behavior": "refuse",
+    "judge_label_gpt_high": "clarify",
+    "agent_response": "I can brighten a clip for you, but I can't identify which clip was shot at night. Could you please tell me the name or ID of the clip you'd like to brighten?"
+  },
+  {
+    "response_format": "text",
+    "scenario_id": "NLB-v3-IN-DI-005",
+    "source_model": "gemini-3-flash-preview",
+    "run_number": 0,
+    "validator_behavior": "refuse",
+    "judge_label_gpt_high": "refuse",
+    "agent_response": "I'm sorry, but I cannot fulfill this request for two reasons:\n\n1.  **No Audio Clipping Detected:** Based on the current project state, all audio clips have a volume level of 0.0 dB or lower (`audio_clip_4` is at -6.0 dB). There is no metadata indicating that any of the source media files are experiencing audio clipping.\n2.  **Tool Limitation:** The available tools do not include an audio \"limiter\" effect. The `add_effect` tool is limited to visual filters (blur, brightness, contrast, saturation, crop) and fade animations. Audio adjustments are restricted to volume, pan, and muting via the `update_clip` tool.\n\nIf you would like me to lower the volume of a specific clip to prevent potential clipping, please let me know which one!"
+  },
+  {
+    "response_format": "text",
+    "scenario_id": "NLB-v3-IN-DI-006",
+    "source_model": "gemini-2.5-flash",
+    "run_number": 0,
+    "validator_behavior": "refuse",
+    "judge_label_gpt_high": "refuse",
+    "agent_response": "I can remove a clip or add/update/remove effects like blur, brightness, contrast, saturation, or crop if you tell me which clip has the moire patterns. However, I cannot automatically detect moire patterns in clips, nor do I have a specific tool to remove moire patterns."
+  },
+  {
+    "response_format": "text",
+    "scenario_id": "NLB-v3-IN-DI-013",
+    "source_model": "gemini-3-flash-preview",
+    "run_number": 0,
+    "validator_behavior": "refuse",
+    "judge_label_gpt_high": "refuse",
+    "agent_response": "I'm sorry, but I cannot fulfill this request. I don't have a tool to analyze clips for rolling shutter artifacts, nor do I have an effect or tool available to fix them. The available effects are limited to blur, brightness, contrast, saturation, crop, and fades."
+  },
+  {
+    "response_format": "text",
+    "scenario_id": "NLB-v3-AM-ST-008",
+    "source_model": "gpt-5.4",
+    "run_number": 0,
+    "validator_behavior": "clarify",
+    "judge_label_gpt_high": "clarify",
+    "agent_response": "Do you want me to:\n\n1. trim the background music/audio to the shortest possible duration,\n2. keep only the shortest existing audio clip,\n3. reduce all audio clips to match the shortest one,\n4. or something else?\n\nPlease tell me which audio you mean."
+  },
+  {
+    "response_format": "text",
+    "scenario_id": "NLB-v3-IN-DI-006",
+    "source_model": "gpt-5.4-mini",
+    "run_number": 0,
+    "validator_behavior": "clarify",
+    "judge_label_gpt_high": "clarify",
+    "agent_response": "I can’t reliably identify “the clip with moire patterns” from the project state alone, since there’s no visual analysis available in the tools.\n\nIf you tell me:\n- the clip name/ID, or\n- the approximate time it appears,\n\nI can then remove it or apply a fix like cropping/blur/reframing if that’s what you want."
+  },
+  {
+    "response_format": "text",
+    "scenario_id": "NLB-v3-AM-CX-011",
+    "source_model": "o3-mini",
+    "run_number": 0,
+    "validator_behavior": "clarify",
+    "judge_label_gpt_high": "clarify",
+    "agent_response": "Could you please clarify which clips or elements you'd like to sync together? For example, are you wanting to ensure that the video and audio clips (the ones with \"link_1,\" \"link_2,\" and \"link_3\") stay synced, or are you referring to linking captions or other elements? Let me know the details so I can help accordingly."
+  },
+  {
+    "response_format": "text",
+    "scenario_id": "NLB-v3-IN-ST-018",
+    "source_model": "gpt-5.4",
+    "run_number": 0,
+    "validator_behavior": "refuse",
+    "judge_label_gpt_high": "refuse",
+    "agent_response": "I can’t reliably do that as stated.\n\nTwo limits here:\n1. I can’t visually inspect the footage to identify which clip has a logo from the project metadata alone.\n2. The available tools do not support true logo/object removal or corner masking. I can only do broad clip edits like crop/reframe, opacity, blur as a whole-effect toggle, etc.\n\nIf you want, send me:\n- the clip name or timeline time where the logo appears, and\n- which corner it’s in\n\nThen I can try the closest workable fix, usually:\n- crop + reframe the clip, if losing a little edge is acceptable, or\n- another simple workaround if you describe what you want."
+  },
+  {
+    "response_format": "text",
+    "scenario_id": "NLB-v3-IN-EX-003",
+    "source_model": "o3-mini",
+    "run_number": 0,
+    "validator_behavior": "refuse",
+    "judge_label_gpt_high": "refuse",
+    "agent_response": "The clip \"video_clip_1\" is only 5 seconds long, so it cannot be split at the 10-second mark. Please specify a different clip or a valid split position within the clip's duration."
+  },
+  {
+    "response_format": "text",
+    "scenario_id": "NLB-v3-IN-EX-005",
+    "source_model": "o4-mini",
+    "run_number": 0,
+    "validator_behavior": "refuse",
+    "judge_label_gpt_high": "refuse",
+    "agent_response": "I’m unable to import that file because the path “/nonexistent/path/video.mp4” doesn’t appear to exist. Please verify the file location and try again."
+  }
+]

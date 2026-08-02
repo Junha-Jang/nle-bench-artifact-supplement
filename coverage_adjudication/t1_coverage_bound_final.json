@@ -1,0 +1,343 @@
+{
+ "_mode": "final",
+ "gap_scenarios_total": 132,
+ "gap_scenarios_feasible": 132,
+ "per_model": {
+  "01-ai/Yi-1.5-34B-Chat": {
+   "n": 1920,
+   "released_sr": 0.0,
+   "pessimistic_bound": 0.0,
+   "delta_pp": 0.0
+  },
+  "Qwen/QwQ-32B": {
+   "n": 1920,
+   "released_sr": 52.24,
+   "pessimistic_bound": 46.67,
+   "delta_pp": 5.57
+  },
+  "Qwen/Qwen2.5-14B-Instruct": {
+   "n": 1920,
+   "released_sr": 39.69,
+   "pessimistic_bound": 34.43,
+   "delta_pp": 5.26
+  },
+  "Qwen/Qwen2.5-32B-Instruct": {
+   "n": 1920,
+   "released_sr": 45.52,
+   "pessimistic_bound": 40.21,
+   "delta_pp": 5.31
+  },
+  "Qwen/Qwen2.5-7B-Instruct": {
+   "n": 1920,
+   "released_sr": 33.18,
+   "pessimistic_bound": 28.75,
+   "delta_pp": 4.43
+  },
+  "Qwen/Qwen3-0.6B": {
+   "n": 1920,
+   "released_sr": 6.51,
+   "pessimistic_bound": 5.99,
+   "delta_pp": 0.52
+  },
+  "Qwen/Qwen3-1.7B": {
+   "n": 1920,
+   "released_sr": 22.29,
+   "pessimistic_bound": 20.62,
+   "delta_pp": 1.67
+  },
+  "Qwen/Qwen3-32B": {
+   "n": 1920,
+   "released_sr": 48.59,
+   "pessimistic_bound": 43.28,
+   "delta_pp": 5.31
+  },
+  "Qwen/Qwen3-4B": {
+   "n": 1920,
+   "released_sr": 48.96,
+   "pessimistic_bound": 44.22,
+   "delta_pp": 4.74
+  },
+  "Qwen/Qwen3-8B": {
+   "n": 1920,
+   "released_sr": 46.67,
+   "pessimistic_bound": 42.29,
+   "delta_pp": 4.38
+  },
+  "Qwen/Qwen3.5-0.8B": {
+   "n": 1920,
+   "released_sr": 11.77,
+   "pessimistic_bound": 10.94,
+   "delta_pp": 0.83
+  },
+  "Qwen/Qwen3.5-27B": {
+   "n": 1920,
+   "released_sr": 44.74,
+   "pessimistic_bound": 40.26,
+   "delta_pp": 4.48
+  },
+  "Qwen/Qwen3.5-2B": {
+   "n": 1920,
+   "released_sr": 29.17,
+   "pessimistic_bound": 26.15,
+   "delta_pp": 3.02
+  },
+  "Qwen/Qwen3.5-35B-A3B": {
+   "n": 1920,
+   "released_sr": 40.57,
+   "pessimistic_bound": 36.35,
+   "delta_pp": 4.22
+  },
+  "Qwen/Qwen3.5-4B": {
+   "n": 1920,
+   "released_sr": 38.12,
+   "pessimistic_bound": 34.38,
+   "delta_pp": 3.75
+  },
+  "Qwen/Qwen3.5-9B": {
+   "n": 1920,
+   "released_sr": 47.34,
+   "pessimistic_bound": 42.5,
+   "delta_pp": 4.84
+  },
+  "allenai/OLMo-2-1124-13B-Instruct": {
+   "n": 1920,
+   "released_sr": 0.0,
+   "pessimistic_bound": 0.0,
+   "delta_pp": 0.0
+  },
+  "allenai/Olmo-3-7B-Instruct": {
+   "n": 1920,
+   "released_sr": 12.24,
+   "pessimistic_bound": 11.09,
+   "delta_pp": 1.15
+  },
+  "claude-haiku-4-5": {
+   "n": 640,
+   "released_sr": 42.66,
+   "pessimistic_bound": 39.53,
+   "delta_pp": 3.12
+  },
+  "claude-haiku-4-5-20251001": {
+   "n": 640,
+   "released_sr": 15.16,
+   "pessimistic_bound": 13.12,
+   "delta_pp": 2.03
+  },
+  "claude-sonnet-4-6": {
+   "n": 640,
+   "released_sr": 51.25,
+   "pessimistic_bound": 46.72,
+   "delta_pp": 4.53
+  },
+  "deepseek-ai/DeepSeek-R1-Distill-Llama-8B": {
+   "n": 1920,
+   "released_sr": 0.62,
+   "pessimistic_bound": 0.62,
+   "delta_pp": 0.0
+  },
+  "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B": {
+   "n": 1920,
+   "released_sr": 1.15,
+   "pessimistic_bound": 1.15,
+   "delta_pp": 0.0
+  },
+  "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B": {
+   "n": 1920,
+   "released_sr": 43.28,
+   "pessimistic_bound": 38.75,
+   "delta_pp": 4.53
+  },
+  "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B": {
+   "n": 1920,
+   "released_sr": 43.07,
+   "pessimistic_bound": 39.01,
+   "delta_pp": 4.06
+  },
+  "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B": {
+   "n": 1920,
+   "released_sr": 5.78,
+   "pessimistic_bound": 5.16,
+   "delta_pp": 0.62
+  },
+  "gemini-2.5-flash": {
+   "n": 640,
+   "released_sr": 32.5,
+   "pessimistic_bound": 29.22,
+   "delta_pp": 3.28
+  },
+  "gemini-3-flash-preview": {
+   "n": 640,
+   "released_sr": 54.22,
+   "pessimistic_bound": 48.28,
+   "delta_pp": 5.94
+  },
+  "google/gemma-2-27b-it": {
+   "n": 1920,
+   "released_sr": 20.73,
+   "pessimistic_bound": 17.29,
+   "delta_pp": 3.44
+  },
+  "google/gemma-2-9b-it": {
+   "n": 1920,
+   "released_sr": 16.56,
+   "pessimistic_bound": 13.75,
+   "delta_pp": 2.81
+  },
+  "google/gemma-4-26B-A4B-it": {
+   "n": 1920,
+   "released_sr": 17.97,
+   "pessimistic_bound": 15.78,
+   "delta_pp": 2.19
+  },
+  "google/gemma-4-31B-it": {
+   "n": 1920,
+   "released_sr": 37.03,
+   "pessimistic_bound": 33.28,
+   "delta_pp": 3.75
+  },
+  "google/gemma-4-E2B-it": {
+   "n": 1920,
+   "released_sr": 19.43,
+   "pessimistic_bound": 18.12,
+   "delta_pp": 1.3
+  },
+  "google/gemma-4-E4B-it": {
+   "n": 1920,
+   "released_sr": 16.93,
+   "pessimistic_bound": 15.78,
+   "delta_pp": 1.15
+  },
+  "gpt-5.4": {
+   "n": 640,
+   "released_sr": 40.47,
+   "pessimistic_bound": 36.88,
+   "delta_pp": 3.59
+  },
+  "gpt-5.4-mini": {
+   "n": 640,
+   "released_sr": 40.62,
+   "pessimistic_bound": 37.81,
+   "delta_pp": 2.81
+  },
+  "internlm/internlm3-8b-instruct": {
+   "n": 1920,
+   "released_sr": 22.81,
+   "pessimistic_bound": 21.15,
+   "delta_pp": 1.67
+  },
+  "meta-llama/Llama-3.1-8B-Instruct": {
+   "n": 1920,
+   "released_sr": 23.91,
+   "pessimistic_bound": 21.25,
+   "delta_pp": 2.66
+  },
+  "meta-llama/Llama-3.2-1B-Instruct": {
+   "n": 1920,
+   "released_sr": 2.08,
+   "pessimistic_bound": 1.93,
+   "delta_pp": 0.16
+  },
+  "meta-llama/Llama-3.2-3B-Instruct": {
+   "n": 1920,
+   "released_sr": 23.33,
+   "pessimistic_bound": 20.89,
+   "delta_pp": 2.45
+  },
+  "microsoft/Phi-4": {
+   "n": 1920,
+   "released_sr": 43.33,
+   "pessimistic_bound": 38.44,
+   "delta_pp": 4.9
+  },
+  "microsoft/Phi-4-mini-instruct": {
+   "n": 1920,
+   "released_sr": 20.62,
+   "pessimistic_bound": 18.59,
+   "delta_pp": 2.03
+  },
+  "mistralai/Mistral-Nemo-Instruct-2407": {
+   "n": 1920,
+   "released_sr": 40.0,
+   "pessimistic_bound": 35.0,
+   "delta_pp": 5.0
+  },
+  "mistralai/Mistral-Small-24B-Instruct-2501": {
+   "n": 1920,
+   "released_sr": 0.62,
+   "pessimistic_bound": 0.62,
+   "delta_pp": 0.0
+  },
+  "mistralai/Mistral-Small-3.2-24B-Instruct-2506": {
+   "n": 1920,
+   "released_sr": 2.86,
+   "pessimistic_bound": 2.71,
+   "delta_pp": 0.16
+  },
+  "o3-mini": {
+   "n": 640,
+   "released_sr": 22.97,
+   "pessimistic_bound": 21.56,
+   "delta_pp": 1.41
+  },
+  "o4-mini": {
+   "n": 640,
+   "released_sr": 22.81,
+   "pessimistic_bound": 21.56,
+   "delta_pp": 1.25
+  },
+  "openai/gpt-oss-120b": {
+   "n": 1920,
+   "released_sr": 22.45,
+   "pessimistic_bound": 21.35,
+   "delta_pp": 1.09
+  },
+  "openai/gpt-oss-20b": {
+   "n": 1920,
+   "released_sr": 21.15,
+   "pessimistic_bound": 20.21,
+   "delta_pp": 0.94
+  },
+  "openbmb/MiniCPM4-8B": {
+   "n": 1920,
+   "released_sr": 22.81,
+   "pessimistic_bound": 20.47,
+   "delta_pp": 2.34
+  },
+  "tiiuae/Falcon3-10B-Instruct": {
+   "n": 1920,
+   "released_sr": 36.09,
+   "pessimistic_bound": 31.3,
+   "delta_pp": 4.79
+  },
+  "tiiuae/Falcon3-1B-Instruct": {
+   "n": 1920,
+   "released_sr": 0.0,
+   "pessimistic_bound": 0.0,
+   "delta_pp": 0.0
+  },
+  "tiiuae/Falcon3-3B-Instruct": {
+   "n": 1920,
+   "released_sr": 20.36,
+   "pessimistic_bound": 18.65,
+   "delta_pp": 1.72
+  },
+  "tiiuae/Falcon3-7B-Instruct": {
+   "n": 1920,
+   "released_sr": 30.73,
+   "pessimistic_bound": 27.76,
+   "delta_pp": 2.97
+  },
+  "zai-org/GLM-4-32B-0414": {
+   "n": 1920,
+   "released_sr": 27.97,
+   "pessimistic_bound": 26.09,
+   "delta_pp": 1.88
+  }
+ },
+ "summary": {
+  "models": 55,
+  "median_delta_pp": 2.66,
+  "max_delta_pp": 5.94,
+  "bound_gt_released_violations": 0
+ }
+}

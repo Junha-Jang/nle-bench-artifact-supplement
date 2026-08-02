@@ -1,0 +1,67 @@
+{
+ "per_class": {
+  "G1": {
+   "scenarios": 56,
+   "applicable_records": 1681,
+   "failing_records": 21,
+   "within_class_fail_pct": 1.2,
+   "median_delta_pp": 0.0,
+   "worst_delta_pp": -0.57,
+   "ceiling_median_pp": -1.25
+  },
+  "G2": {
+   "scenarios": 108,
+   "applicable_records": 4694,
+   "failing_records": 145,
+   "within_class_fail_pct": 3.1,
+   "median_delta_pp": 0.0,
+   "worst_delta_pp": -1.88,
+   "ceiling_median_pp": -4.84
+  },
+  "G3": {
+   "scenarios": 85,
+   "applicable_records": 878,
+   "failing_records": 3,
+   "within_class_fail_pct": 0.3,
+   "median_delta_pp": 0.0,
+   "worst_delta_pp": -0.16,
+   "ceiling_median_pp": -0.78
+  },
+  "G4": {
+   "scenarios": 5,
+   "applicable_records": 147,
+   "failing_records": 87,
+   "within_class_fail_pct": 59.2,
+   "median_delta_pp": 0.0,
+   "worst_delta_pp": -0.31,
+   "ceiling_median_pp": -0.16
+  },
+  "G5": {
+   "scenarios": 18,
+   "applicable_records": 364,
+   "failing_records": 0,
+   "within_class_fail_pct": 0.0,
+   "median_delta_pp": 0.0,
+   "worst_delta_pp": 0.0,
+   "ceiling_median_pp": -0.31
+  }
+ },
+ "skipped": {
+  "G3_no_placeable_ref": [
+   "NLEB-EX-CO-028",
+   "NLEB-EX-CO-030",
+   "NLEB-EX-AT-018",
+   "NLEB-EX-AT-032",
+   "NLEB-EX-AT-019",
+   "NLEB-EX-AT-007",
+   "NLEB-ST-AT-020"
+  ],
+  "G4_already_enforced": [
+   "NLEB-EX-CO-018"
+  ],
+  "G5_contradicts_has_link": [
+   "NLEB-CX-DE-036"
+  ]
+ },
+ "model_rows": 55
+}

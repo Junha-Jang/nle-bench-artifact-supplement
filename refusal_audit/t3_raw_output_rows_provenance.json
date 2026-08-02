@@ -1,0 +1,464 @@
+{
+  "tool_protocol_recovery": {
+    "switch": "--tool-mode {native,text,auto} (default auto)",
+    "code_path": [
+      "src/nlebench/__main__.py:99-107 (CLI)",
+      "src/nlebench/__main__.py:361 -> get_provider(tool_mode=...)",
+      "src/nlebench/providers/__init__.py:88 -> VLLMProvider(tool_mode=...)",
+      "src/nlebench/providers/vllm_provider.py:230-234 (text -> _generate_response_without_tools)",
+      "src/nlebench/providers/vllm_provider.py:337-425 (prompt-based JSON protocol)",
+      "src/nlebench/providers/vllm_provider.py:429 (_parse_tool_calls_from_text)"
+    ],
+    "recorded_anywhere": false,
+    "counts": {
+      "anthropic/native": 4,
+      "google/native": 3,
+      "openai/native": 5,
+      "vllm/text": 44,
+      "vllm/unrecovered": 2
+    },
+    "per_row": {
+      "1": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_Qwen-QwQ-32B.log (mtime delta 7s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "2": {
+        "protocol": "native",
+        "basis": "structural",
+        "evidence": "providers/__init__.py:get_provider passes tool_mode only to the vllm branch; anthropic provider has no tool_mode parameter"
+      },
+      "3": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_Qwen-Qwen3-32B.log (mtime delta 8s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "4": {
+        "protocol": "native",
+        "basis": "structural",
+        "evidence": "providers/__init__.py:get_provider passes tool_mode only to the vllm branch; google provider has no tool_mode parameter"
+      },
+      "5": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_Qwen-Qwen3-8B.log (mtime delta 8s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "6": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_Qwen-Qwen3-4B.log (mtime delta 8s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "7": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_Qwen-Qwen3.5-27B.log (mtime delta 8s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "8": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_Qwen-Qwen3.5-9B.log (mtime delta 8s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "9": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_Qwen-Qwen2.5-32B-Instruct.log (mtime delta 10s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "10": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_deepseek-ai-DeepSeek-R1-Distill-Qwen-32B.log (mtime delta 306s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "11": {
+        "protocol": "native",
+        "basis": "structural",
+        "evidence": "providers/__init__.py:get_provider passes tool_mode only to the vllm branch; anthropic provider has no tool_mode parameter"
+      },
+      "12": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_deepseek-ai-DeepSeek-R1-Distill-Qwen-14B.log (mtime delta 11s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "13": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_Qwen-Qwen3.5-35B-A3B.log (mtime delta 9s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "14": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_microsoft-Phi-4.log (mtime delta 6s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "15": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_Qwen-Qwen3.5-4B.log (mtime delta 6s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "16": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_Qwen-Qwen2.5-14B-Instruct.log (mtime delta 5s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "17": {
+        "protocol": "native",
+        "basis": "structural",
+        "evidence": "providers/__init__.py:get_provider passes tool_mode only to the vllm branch; openai provider has no tool_mode parameter"
+      },
+      "18": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_google-gemma-4-31B-it.log (mtime delta 8s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "19": {
+        "protocol": "native",
+        "basis": "structural",
+        "evidence": "providers/__init__.py:get_provider passes tool_mode only to the vllm branch; openai provider has no tool_mode parameter"
+      },
+      "20": {
+        "protocol": "native",
+        "basis": "structural",
+        "evidence": "providers/__init__.py:get_provider passes tool_mode only to the vllm branch; google provider has no tool_mode parameter"
+      },
+      "21": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_mistralai-Mistral-Nemo-Instruct-2407.log (mtime delta 5s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "22": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/thinking_rerun_Qwen-Qwen3.5-2B.log (mtime delta 8s) written by scripts/run_qwen35_thinking_rerun.sh, which hardcodes --tool-mode text"
+      },
+      "23": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_Qwen-Qwen2.5-7B-Instruct.log (mtime delta 8s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "24": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_zai-org-GLM-4-32B-0414.log (mtime delta 7s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "25": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_tiiuae-Falcon3-10B-Instruct.log (mtime delta 7s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "26": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_Qwen-Qwen3-1.7B.log (mtime delta 8s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "27": {
+        "protocol": "native",
+        "basis": "structural",
+        "evidence": "providers/__init__.py:get_provider passes tool_mode only to the vllm branch; openai provider has no tool_mode parameter"
+      },
+      "28": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_allenai-Olmo-3-7B-Instruct.log (mtime delta 10s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "29": {
+        "protocol": "unrecovered",
+        "basis": "none",
+        "evidence": "no launcher script writes a log matching this model slug and timestamp; run appears to have been started by hand"
+      },
+      "30": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_tiiuae-Falcon3-7B-Instruct.log (mtime delta 7s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "31": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_google-gemma-4-E2B-it.log (mtime delta 9s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "32": {
+        "protocol": "native",
+        "basis": "structural",
+        "evidence": "providers/__init__.py:get_provider passes tool_mode only to the vllm branch; openai provider has no tool_mode parameter"
+      },
+      "33": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_microsoft-Phi-4-mini-instruct.log (mtime delta 9s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "34": {
+        "protocol": "unrecovered",
+        "basis": "none",
+        "evidence": "no launcher script writes a log matching this model slug and timestamp; run appears to have been started by hand"
+      },
+      "35": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_google-gemma-4-E4B-it.log (mtime delta 9s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "36": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_internlm-internlm3-8b-instruct.log (mtime delta 9s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "37": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_openbmb-MiniCPM4-8B.log (mtime delta 8s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "38": {
+        "protocol": "native",
+        "basis": "structural",
+        "evidence": "providers/__init__.py:get_provider passes tool_mode only to the vllm branch; anthropic provider has no tool_mode parameter"
+      },
+      "39": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_meta-llama-Llama-3.1-8B-Instruct.log (mtime delta 7s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "40": {
+        "protocol": "native",
+        "basis": "structural",
+        "evidence": "providers/__init__.py:get_provider passes tool_mode only to the vllm branch; openai provider has no tool_mode parameter"
+      },
+      "41": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_google-gemma-4-26B-A4B-it.log (mtime delta 7s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "42": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_Qwen-Qwen3-0.6B.log (mtime delta 9s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "43": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/retry_google-gemma-2-27b-it.log (mtime delta 9s) written by scripts/run_v3_1_retry.sh, which hardcodes --tool-mode text"
+      },
+      "44": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_meta-llama-Llama-3.2-3B-Instruct.log (mtime delta 9s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "45": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/thinking_rerun_Qwen-Qwen3.5-0.8B.log (mtime delta 6s) written by scripts/run_qwen35_thinking_rerun.sh, which hardcodes --tool-mode text"
+      },
+      "46": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_tiiuae-Falcon3-3B-Instruct.log (mtime delta 6s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "47": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/retry_google-gemma-2-9b-it.log (mtime delta 9s) written by scripts/run_v3_1_retry.sh, which hardcodes --tool-mode text"
+      },
+      "48": {
+        "protocol": "native",
+        "basis": "structural",
+        "evidence": "providers/__init__.py:get_provider passes tool_mode only to the vllm branch; anthropic provider has no tool_mode parameter"
+      },
+      "49": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_deepseek-ai-DeepSeek-R1-Distill-Llama-8B.log (mtime delta 7s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "50": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_deepseek-ai-DeepSeek-R1-Distill-Qwen-7B.log (mtime delta 8s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "51": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_deepseek-ai-DeepSeek-R1-Distill-Qwen-1.5B.log (mtime delta 9s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "52": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_mistralai-Mistral-Small-3.2-24B-Instruct-2506.log (mtime delta 8s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "53": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_mistralai-Mistral-Small-24B-Instruct-2501.log (mtime delta 1s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "54": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/v3_1_paper_meta-llama-Llama-3.2-1B-Instruct.log (mtime delta 6s) written by scripts/run_v3_1_paper.sh, which hardcodes --tool-mode text"
+      },
+      "55": {
+        "protocol": "native",
+        "basis": "structural",
+        "evidence": "providers/__init__.py:get_provider passes tool_mode only to the vllm branch; google provider has no tool_mode parameter"
+      },
+      "56": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/retry_tiiuae-Falcon3-1B-Instruct.log (mtime delta 6s) written by scripts/run_v3_1_retry.sh, which hardcodes --tool-mode text"
+      },
+      "57": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/retry_01-ai-Yi-1.5-34B-Chat.log (mtime delta 8s) written by scripts/run_v3_1_retry.sh, which hardcodes --tool-mode text"
+      },
+      "58": {
+        "protocol": "text",
+        "basis": "launcher-provenance",
+        "evidence": "logs/retry_allenai-OLMo-2-1124-13B-Instruct.log (mtime delta 5s) written by scripts/run_v3_1_retry.sh, which hardcodes --tool-mode text"
+      }
+    }
+  },
+  "api": {
+    "file": "raw_output_subset_api.json",
+    "pool_rows": [
+      "2",
+      "4",
+      "11",
+      "17",
+      "19",
+      "20",
+      "27",
+      "32",
+      "48",
+      "55"
+    ],
+    "excluded_rows": [
+      "row 55 (gemini-3.1-pro-preview, google): no canonical per-scenario rows -- excluded_nonrecomputable; excluded"
+    ],
+    "candidate_records": 939,
+    "emitted": 20,
+    "by_vendor_behavior": {
+      "anthropic/clarify": 3,
+      "anthropic/refuse": 4,
+      "google/clarify": 3,
+      "google/refuse": 4,
+      "openai/clarify": 3,
+      "openai/refuse": 3
+    },
+    "by_model": {
+      "claude-haiku-4-5": 3,
+      "claude-haiku-4-5-20251001": 2,
+      "claude-sonnet-4-6": 2,
+      "gemini-2.5-flash": 4,
+      "gemini-3-flash-preview": 3,
+      "gpt-5.4": 2,
+      "gpt-5.4-mini": 1,
+      "o3-mini": 2,
+      "o4-mini": 1
+    },
+    "by_response_format": {
+      "text": 20
+    },
+    "by_judge_label": {
+      "clarify": 11,
+      "refuse": 9
+    },
+    "shortfalls": {},
+    "dropped_at_final_scan": []
+  },
+  "text_fallback": {
+    "file": "raw_output_subset_text_fallback.json",
+    "pool_rows": [
+      "1",
+      "3",
+      "5",
+      "6",
+      "7",
+      "9",
+      "10",
+      "28"
+    ],
+    "notes": [],
+    "candidate_records": 1900,
+    "excluded_because_already_shipped": 20,
+    "emitted": 20,
+    "by_format_behavior": {
+      "mixed/execute": 10,
+      "text/clarify": 4,
+      "text/refuse": 6
+    },
+    "by_model": {
+      "Qwen/QwQ-32B": 4,
+      "Qwen/Qwen2.5-32B-Instruct": 4,
+      "Qwen/Qwen3-32B": 3,
+      "Qwen/Qwen3-4B": 3,
+      "Qwen/Qwen3-8B": 2,
+      "Qwen/Qwen3.5-27B": 2,
+      "allenai/Olmo-3-7B-Instruct": 1,
+      "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B": 1
+    },
+    "by_judge_label": {
+      "clarify": 1,
+      "execute": 10,
+      "noop": 1,
+      "refuse": 8
+    },
+    "shortfalls": {},
+    "dropped_at_final_scan": []
+  },
+  "verdict_provenance": {
+    "validator_behavior_source": "per_scenario_results_redacted.csv:behavior (canonical, post-patch)",
+    "raw_jsonl_behavior_differs_on_emitted": 0,
+    "raw_jsonl_success_differs_from_canonical_on_emitted": 0,
+    "note": "the shipped 20-record schema emits no success field, so no verdict is written out; validator_behavior is nonetheless read from the canonical rescoring, and the raw pre-patch results.jsonl success field is never read",
+    "canonical_success_of_emitted": {
+      "False": 16,
+      "True": 24
+    }
+  },
+  "scan": {
+    "identifying_patterns": [
+      "abs_home_path",
+      "abs_sys_path",
+      "windows_path",
+      "username",
+      "real_name",
+      "org",
+      "repo_path",
+      "email",
+      "ipv4",
+      "localhost",
+      "hostname",
+      "openai_key",
+      "anthropic_key",
+      "google_key",
+      "aws_key",
+      "github_token",
+      "bearer"
+    ],
+    "candidate_pool_scanned": 2839,
+    "candidate_pool_identifying_hits": {},
+    "candidate_pool_identifying_examples": [],
+    "candidates_rejected_during_selection": {},
+    "rejection_examples": [],
+    "records_dropped_at_final_scan": 0,
+    "emitted_records_scanned": 40,
+    "emitted_strings_identifying_clean": true,
+    "benign_reviewed_not_scrubbed": {
+      "rule": "/media/<name> is the benchmark's synthetic media namespace (the `path` field of src/nlebench/dataset/fixtures/json/*.json, already public in the supplement); models also invent further filenames inside it. No real filesystem, user or host is named, so these are left intact -- scrubbing them would corrupt the raw output the reviewer asked to see.",
+      "candidate_pool_hits": {
+        "synthetic_media_path": 34
+      },
+      "candidate_pool_distinct_strings": {
+        "/media/": 6,
+        "/media/b_roll.mp4": 6,
+        "/media/intro.mp4": 3,
+        "/media/b_roll/": 3,
+        "/media/broll_footage.mp4": 3,
+        "/media/broll_clip_1.mp4": 3,
+        "/media/b-roll.mp4": 2,
+        "/media/broll_scene1.mp4": 1,
+        "/media/my_video.mp4": 1,
+        "/media/broll_20240115.mp4": 1,
+        "/media/safety_area_overlay.png": 1,
+        "/media/new_clip.mp4": 1,
+        "/media/interview.mov": 1,
+        "/media/sfx.wav": 1,
+        "/media/b-roll/": 1
+      },
+      "emitted_hits_by_string": {}
+    }
+  }
+}

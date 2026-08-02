@@ -1,0 +1,421 @@
+{
+  "schema_version": "4.3",
+  "title": "Simple Sequence Project",
+  "bin": {
+    "id": "bin_1",
+    "name": "Root",
+    "media_ids": [
+      "av_media_1",
+      "av_media_2",
+      "av_media_3",
+      "audio_media_1"
+    ],
+    "timeline_ids": [
+      "sequence_1"
+    ],
+    "bins": []
+  },
+  "media": [
+    {
+      "id": "av_media_1",
+      "name": "intro.mp4",
+      "type": "video",
+      "path": "/media/intro.mp4",
+      "duration": {
+        "n": 20,
+        "d": 1
+      },
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "fps": {
+          "n": 24,
+          "d": 1
+        }
+      },
+      "audio": {
+        "sample_rate": 48000,
+        "bit_depth": 24,
+        "channels": 2
+      }
+    },
+    {
+      "id": "av_media_2",
+      "name": "main.mp4",
+      "type": "video",
+      "path": "/media/main.mp4",
+      "duration": {
+        "n": 30,
+        "d": 1
+      },
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "fps": {
+          "n": 24,
+          "d": 1
+        }
+      },
+      "audio": {
+        "sample_rate": 48000,
+        "bit_depth": 24,
+        "channels": 2
+      }
+    },
+    {
+      "id": "av_media_3",
+      "name": "outro.mp4",
+      "type": "video",
+      "path": "/media/outro.mp4",
+      "duration": {
+        "n": 10,
+        "d": 1
+      },
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "fps": {
+          "n": 24,
+          "d": 1
+        }
+      },
+      "audio": {
+        "sample_rate": 48000,
+        "bit_depth": 24,
+        "channels": 2
+      }
+    },
+    {
+      "id": "audio_media_1",
+      "name": "bgm.mp3",
+      "type": "audio",
+      "path": "/media/bgm.mp3",
+      "duration": {
+        "n": 60,
+        "d": 1
+      },
+      "audio": {
+        "sample_rate": 48000,
+        "bit_depth": 24,
+        "channels": 2
+      }
+    }
+  ],
+  "timelines": [
+    {
+      "id": "sequence_1",
+      "name": "Main Sequence",
+      "width": 1920,
+      "height": 1080,
+      "fps": {
+        "n": 24,
+        "d": 1
+      },
+      "sample_rate": 48000,
+      "tracks": [
+        {
+          "id": "video_track_1",
+          "kind": "video",
+          "name": "V1",
+          "locked": false,
+          "visible": true,
+          "clips": [
+            {
+              "id": "video_clip_1",
+              "type": "video",
+              "name": "video_clip_1",
+              "timeline_start": {
+                "n": 0,
+                "d": 1
+              },
+              "duration": {
+                "n": 5,
+                "d": 1
+              },
+              "enabled": true,
+              "link_group": "link_1",
+              "ref_id": "av_media_1",
+              "ref_type": "media",
+              "source_in": {
+                "n": 0,
+                "d": 1
+              },
+              "source_out": {
+                "n": 5,
+                "d": 1
+              },
+              "transform": {
+                "position_x": 0.5,
+                "position_y": 0.5,
+                "scale_x": 1.0,
+                "scale_y": 1.0,
+                "rotation": 0.0,
+                "opacity": 1.0
+              },
+              "audio": {
+                "volume": 0.0,
+                "pan": 0.0,
+                "muted": false
+              }
+            },
+            {
+              "id": "video_clip_2",
+              "type": "video",
+              "name": "video_clip_2",
+              "timeline_start": {
+                "n": 5,
+                "d": 1
+              },
+              "duration": {
+                "n": 10,
+                "d": 1
+              },
+              "enabled": true,
+              "link_group": "link_2",
+              "ref_id": "av_media_2",
+              "ref_type": "media",
+              "source_in": {
+                "n": 0,
+                "d": 1
+              },
+              "source_out": {
+                "n": 10,
+                "d": 1
+              },
+              "transform": {
+                "position_x": 0.5,
+                "position_y": 0.5,
+                "scale_x": 1.0,
+                "scale_y": 1.0,
+                "rotation": 0.0,
+                "opacity": 1.0
+              },
+              "audio": {
+                "volume": 0.0,
+                "pan": 0.0,
+                "muted": false
+              }
+            },
+            {
+              "id": "video_clip_3",
+              "type": "video",
+              "name": "video_clip_3",
+              "timeline_start": {
+                "n": 15,
+                "d": 1
+              },
+              "duration": {
+                "n": 5,
+                "d": 1
+              },
+              "enabled": true,
+              "link_group": "link_3",
+              "ref_id": "av_media_3",
+              "ref_type": "media",
+              "source_in": {
+                "n": 0,
+                "d": 1
+              },
+              "source_out": {
+                "n": 5,
+                "d": 1
+              },
+              "transform": {
+                "position_x": 0.5,
+                "position_y": 0.5,
+                "scale_x": 1.0,
+                "scale_y": 1.0,
+                "rotation": 0.0,
+                "opacity": 1.0
+              },
+              "audio": {
+                "volume": 0.0,
+                "pan": 0.0,
+                "muted": false
+              }
+            },
+            {
+              "id": "caption_1",
+              "type": "caption",
+              "name": "caption_1",
+              "timeline_start": {
+                "n": 2,
+                "d": 1
+              },
+              "duration": {
+                "n": 3,
+                "d": 1
+              },
+              "enabled": true,
+              "caption": {
+                "text": "Introduction",
+                "style": {
+                  "font_size": 48,
+                  "font_family": "Arial",
+                  "font_color": "#FFFFFF"
+                }
+              },
+              "transform": {
+                "position_x": 0.5,
+                "position_y": 0.85,
+                "scale_x": 1.0,
+                "opacity": 1.0,
+                "rotation": 0.0
+              },
+              "audio": {
+                "volume": 0.0,
+                "pan": 0.0,
+                "muted": false
+              }
+            }
+          ],
+          "transitions": []
+        },
+        {
+          "id": "audio_track_1",
+          "kind": "audio",
+          "name": "A1",
+          "locked": false,
+          "visible": true,
+          "muted": false,
+          "solo": false,
+          "clips": [
+            {
+              "id": "audio_clip_1",
+              "type": "audio",
+              "name": "audio_clip_1",
+              "timeline_start": {
+                "n": 0,
+                "d": 1
+              },
+              "duration": {
+                "n": 5,
+                "d": 1
+              },
+              "enabled": true,
+              "link_group": "link_1",
+              "ref_id": "av_media_1",
+              "ref_type": "media",
+              "source_in": {
+                "n": 0,
+                "d": 1
+              },
+              "source_out": {
+                "n": 5,
+                "d": 1
+              },
+              "audio": {
+                "volume": 0.0,
+                "pan": 0.0,
+                "muted": false
+              }
+            },
+            {
+              "id": "audio_clip_2",
+              "type": "audio",
+              "name": "audio_clip_2",
+              "timeline_start": {
+                "n": 5,
+                "d": 1
+              },
+              "duration": {
+                "n": 10,
+                "d": 1
+              },
+              "enabled": true,
+              "link_group": "link_2",
+              "ref_id": "av_media_2",
+              "ref_type": "media",
+              "source_in": {
+                "n": 0,
+                "d": 1
+              },
+              "source_out": {
+                "n": 10,
+                "d": 1
+              },
+              "audio": {
+                "volume": 0.0,
+                "pan": 0.0,
+                "muted": false
+              }
+            },
+            {
+              "id": "audio_clip_3",
+              "type": "audio",
+              "name": "audio_clip_3",
+              "timeline_start": {
+                "n": 15,
+                "d": 1
+              },
+              "duration": {
+                "n": 5,
+                "d": 1
+              },
+              "enabled": true,
+              "link_group": "link_3",
+              "ref_id": "av_media_3",
+              "ref_type": "media",
+              "source_in": {
+                "n": 0,
+                "d": 1
+              },
+              "source_out": {
+                "n": 5,
+                "d": 1
+              },
+              "audio": {
+                "volume": 0.0,
+                "pan": 0.0,
+                "muted": false
+              }
+            }
+          ],
+          "transitions": []
+        },
+        {
+          "id": "audio_track_2",
+          "kind": "audio",
+          "name": "A2 (BGM)",
+          "locked": false,
+          "visible": true,
+          "muted": false,
+          "solo": false,
+          "clips": [
+            {
+              "id": "audio_clip_4",
+              "type": "audio",
+              "name": "audio_clip_4",
+              "timeline_start": {
+                "n": 0,
+                "d": 1
+              },
+              "duration": {
+                "n": 20,
+                "d": 1
+              },
+              "enabled": true,
+              "ref_id": "audio_media_1",
+              "ref_type": "media",
+              "source_in": {
+                "n": 0,
+                "d": 1
+              },
+              "source_out": {
+                "n": 20,
+                "d": 1
+              },
+              "volume": -6.0,
+              "audio": {
+                "volume": -6.0,
+                "pan": 0.0,
+                "muted": false
+              }
+            }
+          ],
+          "transitions": []
+        }
+      ]
+    }
+  ]
+}

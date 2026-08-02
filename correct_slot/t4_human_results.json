@@ -1,0 +1,94 @@
+{
+ "n_labeled": 499,
+ "per_rater": {
+  "M-1": 250,
+  "M-2": 249
+ },
+ "invalid": [
+  [
+   "M-1",
+   194,
+   "마ㅣㅈ음"
+  ],
+  [
+   "M-1",
+   240,
+   "어남"
+  ]
+ ],
+ "matcher_x_human": {
+  "matcher-|맞음": 45,
+  "matcher-|아님": 192,
+  "matcher-|애매": 11,
+  "matcher+|맞음": 138,
+  "matcher+|아님": 86,
+  "matcher+|애매": 25
+ },
+ "matcher_precision_vs_human": 61.6,
+ "matcher_recall_vs_human": 75.4,
+ "human_indeterminate_n": 36,
+ "human_indeterminate_pct": 7.2,
+ "completion": {
+  "rated": 499,
+  "planned": 500,
+  "pct": 99.8
+ },
+ "typos_corrected": [
+  {
+   "person": "M-1",
+   "item_no": "61",
+   "raw": "이ㅏ님",
+   "as": "아님"
+  },
+  {
+   "person": "M-1",
+   "item_no": "69",
+   "raw": "맞은ㅁ",
+   "as": "맞음"
+  },
+  {
+   "person": "M-1",
+   "item_no": "117",
+   "raw": "미ㅏㅈ음",
+   "as": "맞음"
+  }
+ ],
+ "determinate_n": 461,
+ "precision_ci95": [
+  55.1,
+  68.1
+ ],
+ "recall_ci95": [
+  68.9,
+  81.4
+ ],
+ "per_rater_matcher": {
+  "M-2": {
+   "n": 247,
+   "precision": 60.8,
+   "recall": 74.5
+  },
+  "M-1": {
+   "n": 214,
+   "precision": 62.6,
+   "recall": 76.5
+  }
+ },
+ "precision_worst_case_swing_pp": 0.3,
+ "overlap_n": 99,
+ "overlap_agreement_pct": 84.8,
+ "overlap_cohen_kappa": 0.726,
+ "overlap_confusion": {
+  "맞음|맞음": 33,
+  "맞음|아님": 2,
+  "아님|아님": 51,
+  "애매|맞음": 9,
+  "애매|아님": 4
+ },
+ "coder_effect": {
+  "indeterminate_M-1": 13,
+  "indeterminate_M-2": 0,
+  "head_to_head_conflicts": 2,
+  "agreement_excluding_indeterminate": 97.7
+ }
+}
